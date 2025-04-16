@@ -1,0 +1,54 @@
+# Fichiers et dossiers Flutter/Dart
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/.pub-cache/
+**/.pub/
+**/pubspec.lock
+**/*.g.dart
+**/*.freezed.dart
+**/*.mocks.dart
+
+# Fichiers générés par flutter_gen, nous les gardons dans le dépôt
+# !**/gen/*.gen.dart
+
+# Fichiers générés par IDEs Android Studio et IntelliJ
+**/.idea/
+**/*.iml
+**/*.iws
+**/.DS_Store
+
+# Fichiers générés par VS Code
+**/.vscode/
+**/*.code-workspace
+
+# Fichiers générés par Xcode
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/ephemeral
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Runner.xcworkspace
+
+# Fichiers générés par Android
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/.gradle
+**/android/captures/
+**/android/app/release
+
+# Melos
+.melos_tool/
+**/pubspec_overrides.yaml
+
+# Divers
+**/coverage/
+**/doc/api/
+**/.env
+EOF
