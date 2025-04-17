@@ -6,7 +6,7 @@
 **/.packages
 **/.pub-cache/
 **/.pub/
-**/pubspec.lock
+packages/page_scope/pubspec.lock
 **/*.g.dart
 **/*.freezed.dart
 **/*.mocks.dart

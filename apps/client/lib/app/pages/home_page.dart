@@ -1,15 +1,12 @@
 import 'package:auto_route/annotations.dart';
 import 'package:flutter/material.dart';
 
-import '../view/app_splash_view.dart';
-
-
 @RoutePage()
-class AppSplashPage extends StatelessWidget {
-  const AppSplashPage({super.key});
+class HomePage extends StatelessWidget {
+  const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const AppSplashView();
+    return const Placeholder();
   }
 }

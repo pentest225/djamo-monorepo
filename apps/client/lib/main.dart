@@ -3,14 +3,17 @@ import 'package:app_ui/app_ui.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'app/pages/app_splash_page.dart';
+import 'config/routes/app_router_module.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(const ClientApp());
+  runApp( ClientApp());
 }
 
 class ClientApp extends StatelessWidget {
-  const ClientApp({super.key});
+   ClientApp({super.key});
+
+  final _appRouter = AppRouteModule();
 
   @override
   Widget build(BuildContext context) {
@@ -23,16 +26,16 @@ class ClientApp extends StatelessWidget {
           currencyConfig: AppCurrencyConfig.xof(),
           localeConfig: AppLocaleConfig.fr(),
           modalRoutingConfig: UIModalRoutingConfig.empty,
-          child: MaterialApp(
+          child: MaterialApp.router(
             title: 'Djamo monorepo',
             debugShowCheckedModeBanner: false,
             theme:AppTheme.clientLight(context).current,
-            home:const AppSplashPage(),
+            routerConfig: _appRouter.config(),
             localizationsDelegates: const [
-            ...AppLocalizations.localizationsDelegates,
+              ...AppLocalizations.localizationsDelegates,
             ],
             supportedLocales: AppLocalizations.supportedLocales,
-          ),
+          )
         );
       }
     );
