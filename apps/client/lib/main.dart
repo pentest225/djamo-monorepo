@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:code/code.dart';
 import 'package:app_ui/app_ui.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'app/pages/app_splash_page.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const ClientApp());
 }
 
@@ -13,13 +14,27 @@ class ClientApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Djamo monorepo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.orange),
-        useMaterial3: true,
-      ),
-      home:const AppSplashPage()
+    return ScreenUtilInit(
+        designSize: const Size(360, 690),
+        minTextAdapt: true,
+        splitScreenMode: true,
+      builder: (context, __) {
+        return AppUIConfigProvider(
+          currencyConfig: AppCurrencyConfig.xof(),
+          localeConfig: AppLocaleConfig.fr(),
+          modalRoutingConfig: UIModalRoutingConfig.empty,
+          child: MaterialApp(
+            title: 'Djamo monorepo',
+            debugShowCheckedModeBanner: false,
+            theme:AppTheme.clientLight(context).current,
+            home:const AppSplashPage(),
+            localizationsDelegates: const [
+            ...AppLocalizations.localizationsDelegates,
+            ],
+            supportedLocales: AppLocalizations.supportedLocales,
+          ),
+        );
+      }
     );
   }
 }
