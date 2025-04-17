@@ -1,0 +1,2346 @@
+{
+  "@@locale": "en",
+  "welcome": "Welcome to Djamo!",
+  "continueLabel": "Continue",
+  "confirm": "Confirm",
+  "iConfirm": "I confirm",
+  "yesIConfirm": "Yes, I confirm",
+  "confirmation": "Confirmation",
+  "done": "Done",
+  "yes": "Yes",
+  "no": "No",
+  "your": "Your",
+  "toMe": "To me",
+  "or": "Or",
+  "back": "Back",
+  "backToDashboard": "Back to dashboard",
+  "notNow": "Not now",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "close": "Close",
+  "tryAgain": "Try again",
+  "error": "Error",
+  "help": "Help",
+  "success": "Success",
+  "allow": "Allow",
+  "dontAllow": "Don't allow",
+  "deny": "Deny",
+  "copy": "Copy",
+  "authorize": "Authorize",
+  "iUnderstand": "I understand",
+  "perfect": "Perfect!",
+  "appUnderMaintenance": "The application is under maintenance, please try again in a few minutes.",
+  "addMoney": "Add money",
+  "withdrawal": "Withdrawal",
+  "withdrawMoney": "Withdraw money",
+  "depositMoney": "Deposit money",
+  "enterAmount": "Amount",
+  "showAll": "Show all",
+  "tapPhoneNumber": "Enter the phone number",
+  "pay": "Paid",
+  "countryName": "Côte d'Ivoire",
+  "@daysCount": {
+    "description": "Days count",
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "example": "5"
+      }
+    }
+  },
+  "deadlineHasPassed": "The deadline has passed",
+  "remainingDays": "{value,plural, =0{Done} =1{1 day remaining} other{{value} days remaining}}",
+  "@remainingDays": {
+    "description": "Remaining days",
+    "placeholders": {
+      "value": {
+        "type": "num",
+        "example": "5"
+      }
+    }
+  },
+  "remainingWeeksAndDays": "{weeks,plural, =0{} one{1 week} other{{weeks} weeks}} {days,plural, =0{} one{1 day} other{{days} days}}",
+  "@remainingWeeksAndDays": {
+    "description": "Remaining weeks and days",
+    "placeholders": {
+      "weeks": {
+        "type": "num",
+        "example": "2"
+      },
+      "days": {
+        "type": "num",
+        "example": "5"
+      }
+    }
+  },
+  "takePhoto": "Take a photo",
+  "importImage": "Import an image",
+  "weekDay": "{value, select, sunday{Sunday} monday{Monday} tuesday{Tuesday} wednesday{Wednesday} thursday{Thursday} friday{Friday} saturday{Saturday} other{}}",
+  "@weekDay": {
+    "description": "Week day",
+    "placeholders": {
+      "value": {
+        "type": "String",
+        "example": "sunday"
+      }
+    }
+  },
+  "fees": "Fees",
+  "operationFees": "Operation fees",
+  "withdrawalFees": "Withdrawal fees",
+  "premiumUpgradeSuccess": "You have upgraded to Premium",
+  "djamoFees": "Djamo fees ({percentage}%)",
+  "@djamoFees": {
+    "description": "Djamo fees",
+    "placeholders": {
+      "percentage": {
+        "type": "num",
+        "example": "1"
+      }
+    }
+  },
+  "cardLocked": "Locked",
+  "amountToBeReceived": "Amount to be received",
+  "amountToPay": "Amount to pay",
+  "loadingInfo": "Loading information...",
+  "loadingFailed": "Loading failed",
+  "deletionOnGoing": "Deleting...",
+  "objective": "Objective",
+  "participants": "Participants",
+  "period": "Period",
+  "numberOfTimes": "{times} times",
+  "@numberOfTimes": {
+    "description": "Number of times",
+    "placeholders": {
+      "times": {
+        "type": "num",
+        "example": "5"
+      }
+    }
+  },
+  "quitThisScreen": "Quit this screen",
+  "quitThisScreenConfirmation": "Are you sure you want to quit this screen?",
+  "number": "Number",
+  "verificationOnGoing": "Verification in progress...",
+  "processingOnGoing": "Processing in progress...",
+  "waitingAMoment": "Please wait a moment...",
+  "engagementConditions": "Engagement conditions",
+  "cgu": "Terms and conditions",
+  "cguAccept": "I accept the terms and conditions",
+  "documentLoading": "Document loading...",
+  "share": "Share",
+  "details": "Details",
+  "copySuccessMessage": "Copied to clipboard",
+  "myProfile": "My profile",
+  "myIban": "My Account Number",
+  "referral": "Referral",
+  "pos": "POS",
+  "lock": "Lock",
+  "lockApp": "Lock the app",
+  "personalInformation": "Personal information",
+  "pricingPlan": "Pricing plan",
+  "documents": "Documents",
+  "lastnameLabel": "Name",
+  "firstNameLabel": "First name",
+  "identificationDocuments": "Identification documents",
+  "free": "Free",
+  "popular": "Popular",
+  "mainAccountBalanceTitle": "Main account balance",
+  "refresh": "Refresh",
+  "total": "Total",
+  "totalToPay": "Total to pay",
+  "paymentSuccess": "Payment successful",
+  "save": "Save",
+  "account": "Account",
+  "processingTime": "Processing time",
+  "hours": "{hours, select, 0{0 hour} 1{1 hour} other{{hours} hours}}",
+  "@hours": {
+    "description": "Hours",
+    "placeholders": {
+      "hours": {
+        "type": "String",
+        "example": "24"
+      }
+    }
+  },
+  "cancelOperation": "Cancel the operation",
+  "stampFee": "Stamp fee",
+  "recommended": "Recommended",
+  "nothingFound": "Nothing found",
+  "category": "Category",
+  "statistics": "Statistics",
+  "great": "Great ⚡️",
+  "transactionCategorizedAsFood": "Your transaction has been categorized as '{category}'",
+  "modificationsSaved": "Your changes have been saved",
+  "invitationCode": "Invitation code",
+  "inProgress": "In progress",
+  "authMigrationWeAreConfiguringYourAccount": "We are configuring your account...",
+  "authEnterPhoneFieldLabel": "Phone number",
+  "authEnterPhoneValidationErrMessage": "The phone number must be {digit} digits long.",
+  "@authEnterPhoneValidationErrMessage": {
+    "description": "Phone number validation error message",
+    "placeholders": {
+      "digit": {
+        "type": "num",
+        "example": "8"
+      }
+    }
+  },
+  "authAlreadyConnectedErrMessage": "You are already connected",
+  "authPhoneVerificationOnGoing": "Verifying your phone number...",
+  "authSendingOtp": "Sending code...",
+  "authOtpVerificationOnGoing": "Verifying your code...",
+  "authSelectCountry": "Select a country",
+  "authOtpVerificationPageTitle": "Verification code",
+  "authEnterOtpTitle": "Enter the code received by {method}",
+  "@authEnterOtpTitle": {
+    "description": "Temporally code received by message",
+    "placeholders": {
+      "method": {
+        "type": "String",
+        "example": "SMS"
+      }
+    }
+  },
+  "authEnterOtpTitleTo": "Enter the code received by {method} to {receiver}",
+  "@authEnterOtpTitleTo": {
+    "description": "Temporally code received by message",
+    "placeholders": {
+      "method": {
+        "type": "String",
+        "example": "SMS"
+      },
+      "receiver": {
+        "type": "String",
+        "example": "John Doe"
+      }
+    }
+  },
+  "authReSentOtpIn": "Return the code in {time}",
+  "@authReSentOtpIn": {
+    "description": "Remaining time before re-sent new otp",
+    "placeholders": {
+      "time": {
+        "type": "String",
+        "example": "00:30"
+      }
+    }
+  },
+  "authSendOTP": "Send code",
+  "authResendOTPBySms": "Resend code by SMS",
+  "authUseAnotherOtpMethod": "Try another method",
+  "authLogout": "Log out",
+  "authForgotPassword": "Forgot your password?",
+  "authEnterPasswordTitle": "Enter your code to log in",
+  "authHi": "Hi {name}",
+  "@authHi": {
+    "description": "Greeting",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "John"
+      }
+    }
+  },
+  "authWrongPassword": "Incorrect code",
+  "authUseBiometric": "Use {type, select, fingerprint{Digital print} faceId{Facial recognition} iris{Retinal scanner} other{Biometric}}",
+  "@authUseBiometric": {
+    "description": "Biometric authentication",
+    "type": {
+      "type": "String",
+      "example": "fingerprint"
+    }
+  },
+  "authUseBiometricMessage": "Use {type, select, fingerprint{your fingerprint} faceId{facial recognition} iris{Retinal scanner} other{Biometric}} to quickly log in",
+  "@authUseBiometricMessage": {
+    "description": "Biometric authentication",
+    "type": {
+      "type": "String",
+      "example": "fingerprint"
+    }
+  },
+  "authEnableBiometricMessage": "Enable Biometric to quickly log in to your Djamo account",
+  "authEnableBiometric": "Enable Biometric",
+  "authUseBiometricToLogin": "Use Biometric to log in",
+  "authExpiredSessionMessage": "Your session has expired. Please log in again by entering your code.",
+  "authImpossible": "Unable to authenticate. Please contact technical support.",
+  "@onboardingIdentificationStepTitle": {
+    "description": "onboarding steps",
+    "placeholders": {
+      "current": {
+        "type": "num",
+        "example": "1"
+      },
+      "stepsNumber": {
+        "type": "num",
+        "example": "1"
+      }
+    }
+  },
+  "onboardingEnterFullName": "Enter your first and last names",
+  "onboardingLastnameValidationErrMessage": "Please enter a valid name",
+  "onboardingFirstnameValidationErrMessage": "Please enter a valid first name",
+  "onboardingALeastInformation": "Some more information",
+  "onboardingGender": "{gender, select, male{Monsieur} female{Madame} other{Select gender}}",
+  "@onboardingGender": {
+    "description": "Civility",
+    "gender": {
+      "type": "String",
+      "example": "male"
+    }
+  },
+  "onboardingGenderValidationErrMessage": "Select you gender",
+  "onboardingBirthdayDayField": "Day",
+  "onboardingBirthdayMonthField": "Month",
+  "onboardingBirthdayYearField": "Year",
+  "onboardingAgeRestrictionMessage": "You must be at least {age} years old to serve",
+  "@onboardingAgeRestrictionMessage": {
+    "description": "Age restriction message",
+    "placeholders": {
+      "age": {
+        "type": "num",
+        "example": "18"
+      }
+    }
+  },
+  "onboardingAccountCreationOnGoing": "Creating your account...",
+  "passcodeChooseCodeForYourAccount": "Choose a security code for your Djamo account",
+  "passcodeChooseNewSecurityCode": "Choose a new security code",
+  "passcodeConfirmNewSecurityCode": "Confirm your new security code",
+  "passcodeConfirmCodeForYourAccount": "Confirm your security code",
+  "passcodeRequestingVCPasscodeReset": "Requesting code reset in progress...",
+  "passcodeModifyMyCode": "Modify my code",
+  "passcodeSetCardPinTitle": "Enter your new code PIN",
+  "passcodeSetConfirmCardPinTitle": "Confirm your new code PIN",
+  "passcodeEmptyError": "Please enter your code PIN",
+  "passcodeSameDigitsError": "The code PIN must not contain the same digit",
+  "passcodeSequentialDigitsError": "The code PIN must not contain sequential digits",
+  "passcodeNotMatchError": "The code PINs do not match",
+  "passcodeSameError": "The new passcode must be different from the current one",
+  "passcodeResetOnGoing": "Resetting your code Passcode...",
+  "passcodeResetPCTitle": "Security code reset",
+  "passcodeCardPinResetTitle": "Card PIN reset",
+  "passcodeLivenessInstruction1": "Make sure the room you are in is well lit",
+  "passcodeLivenessInstruction2": "Remove your glasses, hats or masks",
+  "passcodeLivenessConfirmYourId": "Confirmation of your identity",
+  "passcodeLivenessConfirmYourIdSubtitle": "Now you will take a second photo following the instructions given to you",
+  "passcodeRequestResetOnGoing": "Requesting a code reset in progress...",
+  "passcodeLivenessVerificationOnGoingMessage": "We are verifying your identity.\nPlease stay on this screen.\nVerification takes less than a minute.",
+  "passcodeLivenessVerificationFailedForPasscode": "Verification of your identification following your request to reset your security code has failed.",
+  "passcodeLivenessVerificationFailedForPinCard": "Verification of your identification following your request to reset your card PIN has failed.",
+  "passcodeLivenessVerificationTimeoutMessage": "The waiting time has expired. Please try again.",
+  "passcodeUpdatingOnGoing": "Updating your passcode...",
+  "passcodeUpdatingSuccess": "Your passcode has been updated successfully",
+  "@orderPhysicalCardAt": {
+    "description": "Physical card price",
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "5 000 FCFA"
+      }
+    }
+  },
+  "orderWhereToReceiveCard": "Where do you want to receive the card?",
+  "orderChooseReceptionMode": "Reception method",
+  "orderHomeDelivery": "Deliver me",
+  "orderHomeDeliveryDescription": "Free delivery in {day} working days",
+  "@orderHomeDeliveryDescription": {
+    "description": "Home delivery description",
+    "placeholders": {
+      "day": {
+        "type": "num",
+        "example": "5"
+      }
+    }
+  },
+  "orderPickUp": "I will go to a relay point",
+  "orderPickupDescription": "Free and available immediately",
+  "orderTheCardAt": "Order the card at {amount}",
+  "@orderTheCardAt": {
+    "description": "Card price",
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "5 000 FCFA"
+      }
+    }
+  },
+  "orderLater": "Later",
+  "orderChooseCity": "Choose your city",
+  "orderDeliveryPlace": "Delivery place",
+  "orderChooseDeliveryPlace": "Choose delivery area",
+  "orderDeliveryAdvice": "From Monday to Friday. Please choose your workplace.",
+  "orderDeliveryPlaceRefPointOrCompanyName": "Reference point / Company name",
+  "orderDeliveryPlaceRefPointOrCompanyNameHelper": "Example: Cap Sud",
+  "orderDeliveryPlaceRefValidationErrMessage": "Please enter a valid reference point or company name",
+  "orderDeliveryWarning": "You are the only one authorized to receive your card. We make no exceptions.",
+  "orderCardOnGoing": "Ordering your card...",
+  "updatingOrderOnGoing": "Updating your order...",
+  "orderDeliverySuccessMessage": "Your order has been successfully placed 🎉. You will be informed of the delivery date.",
+  "orderPickupSuccessMessage": "You can now stop by one of our relay points to collect it ⚡️",
+  "orderPickupLocalizePOS": "Localiser mon point relais",
+  "orderCardReplacement": "Card replacement",
+  "orderReplaceMyCard": "Replace my card",
+  "orderCardReplacementNotice": "Your card will be permanently terminated and CANNOT be reused, any remaining funds on your current card will be transferred to your replacement card upon activation.",
+  "orderCardReplacementNoticeOnCardCost": "The replacement cost is {cardCost}, do you want to continue?",
+  "@orderCardReplacementNoticeOnCardCost": {
+    "description": "Card replacement notice on card cost",
+    "placeholders": {
+      "cardCost": {
+        "type": "String",
+        "example": "5 000 FCFA"
+      }
+    }
+  },
+  "myOrders": "My order",
+  "orderNumber": "Order N˚ {number}",
+  "@orderNumber": {
+    "description": "Order number",
+    "placeholders": {
+      "number": {
+        "type": "String",
+        "example": "123456"
+      }
+    }
+  },
+  "orderSummaryOrderedCard": "Ordered card",
+  "orderSummaryStatus": "Status",
+  "orderSummaryDeliveryDate": "Delivery date",
+  "orderSummaryTrackingNumber": "Tracking number",
+  "orderSummaryPickupPoint": "POS",
+  "noOrder": "No order",
+  "noOrderMessage": "You have not yet placed an order",
+  "orderStatusDescription": "{status, select, PENDING_VALIDATION{Pending validation} PENDING_DELIVERY{Pending delivery} PENDING_PICKUP{Awaiting collection at the POS} FAILED_VALIDATION{Failed validation} FAILED_DELIVERY{Rescheduling in progress} DELIVERED{Delivered} PICKED_UP{Picked up} ACTIVATED{Activated} other{}}",
+  "@orderStatusDescription": {
+    "description": "Order status description",
+    "placeholders": {
+      "status": {
+        "type": "String",
+        "example": "PENDING_VALIDATION"
+      }
+    }
+  },
+  "appCameraNotAvailable": "Camera not available",
+  "appCameraInitOnGoing": "Initializing the camera...",
+  "appCameraPermissionTitle": "Camera permission",
+  "appCameraPermissionMessage": "Djamo needs access to your camera to take photos",
+  "appCameraImpossibleToAccess": "It is impossible to access the camera. Try again",
+  "appCameraRetakePhoto": "Retake the photo",
+  "appCameraTakeSelfie": "Take a selfie",
+  "appCameraTakeSelfieInstruction": "Position your face in the circle so that it is clearly visible.",
+  "appCameraTakeSelfieWithIDInstruction": "Position your face in the circle so that it is clearly visible. Hold your ID in your hand.",
+  "kycSelectGenderTitle": "You are ?",
+  "kycGender": "{gender, select, male{A man} female{A woman} other{}}",
+  "@kycGender": {
+    "description": "Gender",
+    "gender": {
+      "type": "String",
+      "example": "male"
+    }
+  },
+  "kycHomeLocation": "Home location",
+  "kycHomeLocationTitle": "Home location",
+  "kycWhereDoYouLive": "Where do you live ?",
+  "kycWhereDoYouLiveWithPrecision": "More precisely",
+  "kycIdentityDocumentTitle": "Identification document",
+  "kycOthersCountries": "Other countries",
+  "kycSelectedDocSeemsInvalid": "The selected document seems invalid",
+  "kycUploadingYourIds": "Uploading your ID document...",
+  "kycCheckingInfoMessage": "Sending your documents may take up to 2 minutes depending on your internet connection. Please be patient.",
+  "productChooseThePlan": "Choose a plan",
+  "productFullNameByIdentifier": "{identifier, select, free{Free} premium{Premium} other{{identifier}}} Plan",
+  "@productFullNameByIdentifier": {
+    "description": "Plan name by identifier",
+    "placeholders": {
+      "identifier": {
+        "type": "String",
+        "example": "free"
+      }
+    }
+  },
+  "@productNameByIdentifier": {
+    "description": "Product name by identifier",
+    "placeholders": {
+      "identifier": {
+        "type": "String",
+        "example": "free"
+      }
+    }
+  },
+  "productPCName": "Physical card",
+  "@productPCCost": {
+    "description": "Physical card cost",
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "5 000 FCFA"
+      }
+    }
+  },
+  "@productPCDailyCeiling": {
+    "description": "Physical card daily ceiling",
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "500 000 FCFA"
+      }
+    }
+  },
+  "@productCardMomoTransferFees": {
+    "description": "Physical card momo transfer fees",
+    "placeholders": {
+      "fees": {
+        "type": "String",
+        "example": "1%"
+      }
+    }
+  },
+  "productPCFreeATMWithdrawal": "Free withdrawals at all ATMs",
+  "productPCFreeIBAN": "Free Account number",
+  "productPCAccessToInvest": "Djamo Invest",
+  "productVCMonthlyCeiling": "Monthly ceiling {amount}",
+  "@productVCMonthlyCeiling": {
+    "description": "Virtual card monthly ceiling",
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "500 000 FCFA"
+      }
+    }
+  },
+  "productVCNoBankAccountTopUp": "No top-ups via bank account",
+  "productVCNoIBAN": "No Account number",
+  "offerMonthly": "/month",
+  "offerAllBenefitsOfAndMore": "All Free benefits included",
+  "offerFreeIBAN": "Free Account number",
+  "offerFreeWithdrawal": "Free ATM withdrawals",
+  "offerFreeRejectFee": "0 rejection fees",
+  "offerFreeTransfer": "Transfers to Mobile Money and Banks at 1.5%",
+  "offerFreeVaults": "2 simultaneous vaults",
+  "offerPremiumTransfer": "Free transfers to Mobile Money",
+  "offerPremiumBank": "Free transfers to Banks",
+  "offerPremiumVaults": "10 simultaneous vaults",
+  "offerPremiumPriority": "Priority customer service",
+  "offerPremiumBonus": "2% bonus on payments",
+  "serviceGroupName": "{identifier, select, transfer{Transfer} services{Bills} card{My card} iban{Account number} subscriptions{Subscriptions} pi{PI} currency{Currency} business{Business} airtime{Airtime} other{}}",
+  "@serviceGroupName": {
+    "description": "Service group name",
+    "placeholders": {
+      "identifier": {
+        "type": "String",
+        "example": "transfer"
+      }
+    }
+  },
+  "serviceBillPayment": "Bills",
+  "serviceAirtime": "Airtime",
+  "serviceUnavailable": "Service unavailable",
+  "accountMainAccountName": "Current account",
+  "accountCardAccountName": "Card",
+  "accountVaultAccountName": "Vaults",
+  "accountSubscriptionProductName": "{identifier, select, premium{Premium} other{Free}}",
+  "@accountSubscriptionProductName": {
+    "description": "Subscription product name",
+    "placeholders": {
+      "identifier": {
+        "type": "String",
+        "example": "premium"
+      }
+    }
+  },
+  "accountSubscriptionCounterNonSufficientFundsBillingLabel": "{amount} by rejection for insufficient funds",
+  "@accountSubscriptionCounterNonSufficientFundsBillingLabel": {
+    "description": "Counter non sufficient funds billing label",
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "5 000 FCFA"
+      }
+    }
+  },
+  "accountSubscriptionCounterWireTransferLabel": "Transfer to bank account",
+  "accountSubscriptionPaymentBillingLabel": "0 fees on infinite payments.\nExchange fees may apply for payments in foreign currencies.",
+  "accountSubscriptionPaymentMinTransferFeeForNonPremiumBillingLabel": "Minimum rate: 150 FCFA",
+  "accountSubscriptionChangingPlanFreeToPremiumWaringMessage": "You will immediately switch to {name} {price}/month",
+  "@accountSubscriptionChangingPlanFreeToPremiumWaringMessage": {
+    "description": "Changing plan warning message",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Premium"
+      },
+      "price": {
+        "type": "String",
+        "example": "5 000 FCFA"
+      }
+    }
+  },
+  "accountSubscriptionChangingPlanFromPremiumToFreeWaringMessage": "Change of pricing plan.\nYou will lose your {plan} benefits on {date}",
+  "@accountSubscriptionChangingPlanFromPremiumToFreeWaringMessage": {
+    "description": "Changing plan from premium to free warning message",
+    "placeholders": {
+      "plan": {
+        "type": "String",
+        "example": "Premium"
+      },
+      "date": {
+        "type": "String",
+        "example": "01/01/2022"
+      }
+    }
+  },
+  "accountSubscriptionChangePlan": "Change plan",
+  "accountSubscriptionChangingPlan": "Change of tariff plan",
+  "accountsYourAccountIsLockedCheckMessage": "Your account is locked. Unlock it to continue.",
+  "depositFeesLabel": "Deposit fees",
+  "depositFreeCashInAgentUpsellMessage": "Save time! Top up your account with a nearby Djamo agent with no fees.",
+  "depositBankTransferFreeOfCharge": "Free transfer",
+  "depositBankWithTransferFees": "Transfer with fees",
+  "depositAmountToBeReceived": "Amount to be received",
+  "depositBankDepositStepsToFollow": "Steps to follow",
+  "depositBankSelectBankTitle": "Select your bank",
+  "depositBankAccountDetails": "Account details",
+  "depositBankAccountDetailsBankCode": "Bank code",
+  "depositBankAccountDetailsAgencyCode": "Agency code",
+  "depositBankAccountDetailsAccountNumber": "Account number",
+  "depositBankAccountDetailsRIBKey": "RIB key",
+  "depositBankCopyRIBKey": "Copy the RIB",
+  "depositBankShareRIBMessageTitle": "{holder} Bank account information",
+  "@depositBankShareRIBMessageTitle": {
+    "description": "Bank account information message",
+    "placeholders": {
+      "holder": {
+        "type": "String",
+        "example": "John Doe"
+      }
+    }
+  },
+  "@depositBankShareRIBModalTitle": {
+    "description": "Share bank account information modal title",
+    "placeholders": {
+      "holder": {
+        "type": "String",
+        "example": "John Doe"
+      }
+    }
+  },
+  "depositBankShareRIBMessage": "{holder} Bank Account Details for Branch Payment\nBank: {holderBankLabel}\nAccount Name: ${accountHolder}\nBank Code: {wireBankAccountBankCode}\nAgency Code: {wireBankAccountAgencyCode}\nAccount Number: {wireBankAccountAccountNumber}\nRIB Key: {wireBankAccountRIBKey}",
+  "@depositBankShareRIBMessage": {
+    "description": "Copy RIB key message",
+    "placeholders": {
+      "holder": {
+        "type": "String",
+        "example": "John Doe"
+      },
+      "holderBankLabel": {
+        "type": "String",
+        "example": "Bank of Africa"
+      },
+      "accountHolder": {
+        "type": "String",
+        "example": "John Doe"
+      },
+      "wireBankAccountBankCode": {
+        "type": "String",
+        "example": "BDA"
+      },
+      "wireBankAccountAgencyCode": {
+        "type": "String",
+        "example": "001"
+      },
+      "wireBankAccountAccountNumber": {
+        "type": "String",
+        "example": "123456789"
+      },
+      "wireBankAccountRIBKey": {
+        "type": "String",
+        "example": "12"
+      }
+    }
+  },
+  "depositBankCopyRIBKeySuccess": "RIB key copied ✅",
+  "depositBankEnterAmountLabel": "Enter the amount",
+  "depositBankTransferAmount": "Bank transfer amount",
+  "depositBankTransferReceipt": "Deposit receipt",
+  "depositBankTransferViaIBAN": "Transfer via my {ibanFeatureName}",
+  "depositToDjamoAccount": "Deposit to Djamo account",
+  "availableWithPhysicalCard": "Available with the physical card",
+  "depositBankSendRIB": "Send the RIB",
+  "depositBankSelectBankInstructionDescription": "Select the bank from which you will make the transfer",
+  "depositBankMakeDepositDescriptionForWireTransfer": "Make the transfer to Djamo's bank account",
+  "depositBankEnterAmountDescription": "Enter the amount transferred from your bank account",
+  "depositBankAddDepositProofTitle": "Add a screenshot of the transfer as proof",
+  "depositBankMakeDepositTitle": "Bank Transfer",
+  "depositBankIMadePayment": "I made the payment",
+  "depositBankMakeDepositDescriptionForPhysicalDeposit": "Complete the payment slip to complete the transaction",
+  "requestSent": "Request sent",
+  "depositBankProofOfTransfer": "Proof of transfer",
+  "depositBankProcessingTime": "Processing time: {time} hours",
+  "@depositBankProcessingTime": {
+    "description": "Processing time",
+    "placeholders": {
+      "time": {
+        "type": "num",
+        "example": "24"
+      }
+    }
+  },
+  "depositBankMinimumAmount": "Minimum deposi amount",
+  "depositBankDetails": "Bank details",
+  "depositBankDetailsNotice": "Use this information for the deposit",
+  "depositBankAccountName": "Account name",
+  "depositBankAccountNameCopied": "Account name copied ✅",
+  "depositBankAccountNumber": "Number to be filled in",
+  "depositBankAccountNumberCopied": "Account number copied ✅",
+  "depositBankAvailableDepositOptions": "Available options",
+  "depositBankAcceptedProofScreenshotTitle": "Accepted proof screenshot",
+  "depositBankAcceptedProofScreenshot1": "Application confirmation screen",
+  "depositBankAcceptedProofScreenshot2": "Confirmation SMS/Email",
+  "depositBankAcceptedProofScreenshot3": "Stamped transfer slip",
+  "depositBankAccessToYourBankWebsite": "Access your bank's website",
+  "depositBankAccessToYourBankApp": "Access your bank's app",
+  "depositBankAddHolderAsBeneficiary": "Add {holder} as new beneficiary",
+  "@depositBankAddHolderAsBeneficiary": {
+    "description": "Add holder as beneficiary",
+    "placeholders": {
+      "holder": {
+        "type": "String",
+        "example": "John Doe"
+      }
+    }
+  },
+  "depositBankMakeYouWireTransfer": "Make your transfer",
+  "depositBankTakeScreenshotOfConfirmation": "Take a screenshot of the confirmation",
+  "depositBankBackInDjamoToContinue": "Go back to Djamo to enter the amount and upload the screenshot",
+  "depositBankOpenBankApp": "Open {appName}",
+  "@depositBankOpenBankApp": {
+    "description": "Open bank app",
+    "placeholders": {
+      "appName": {
+        "type": "String",
+        "example": "My Bank App"
+      }
+    }
+  },
+  "depositBankHolderAccountAtBank": "{holder} at {bank}",
+  "@depositBankHolderAccountAtBank": {
+    "description": "Holder account at bank",
+    "placeholders": {
+      "holder": {
+        "type": "String",
+        "example": "Djamo"
+      },
+      "bank": {
+        "type": "String",
+        "example": "Bank of Africa"
+      }
+    }
+  },
+  "depositBankPrepareYourTransferReceipt": "Prepare your transfer receipt",
+  "@depositBankPrepareYourTransferReceiptMessage": {
+    "description": "Prepare your transfer receipt message",
+    "placeholders": {
+      "holder": {
+        "type": "String",
+        "example": "Djamo"
+      },
+      "bankLabel": {
+        "type": "String",
+        "example": "Bank of Africa"
+      }
+    }
+  },
+  "depositBankPrepareYourTransferReceiptWarning": "Make sure you have your payment receipt physically or in a photo before moving on to the next step.",
+  "depositBankSuccessTitle": "Verification in progress...",
+  "depositMomoUseMyPhoneNumber": "Use my phone number",
+  "depositMomoAddAnotherPhoneNumber": "Add another phone number",
+  "depositMomoUseAnotherServicePhoneNumber": "Use another {service}'s phone number",
+  "@depositMomoUseAnotherServicePhoneNumber": {
+    "description": "Use another service phone number",
+    "placeholders": {
+      "service": {
+        "type": "String",
+        "example": "Orange Money"
+      }
+    }
+  },
+  "depositOperatorFees": "Operator fees ({fees}%)",
+  "@depositOperatorFees": {
+    "description": "Operator fees",
+    "placeholders": {
+      "fees": {
+        "type": "num",
+        "example": "1"
+      }
+    }
+  },
+  "depositMomoValidateWithOrangeApp": "Validate with Orange Money app",
+  "depositMomoValidateWithMaxItApp": "Validate with Max IT",
+  "depositMomoValidateWithUSSD": "Validate with USSD",
+  "depositMomoConfirm": "Confirm the deposit",
+  "depositMomoConfirmation": "Confirmation",
+  "depositMomoEnterConfirmationCodeHint": "Enter the code received via SMS in the field below and then click on “Confirm the deposit”",
+  "depositMomoConfirmDeposit": "Confirm the deposit",
+  "depositMomoObtainConfirmationCode": "Obtain your confirmation code by dialing",
+  "depositMomoEnterConfirmationCode": "Enter the received code",
+  "depositMomoOnGoing": "Processing your deposit...",
+  "depositMomoServiceOnGoing": "Processing your {service} deposit...",
+  "@depositMomoServiceOnGoing": {
+    "description": "Deposit on going",
+    "placeholders": {
+      "service": {
+        "type": "String",
+        "example": "Orange Money"
+      }
+    }
+  },
+  "depositMomoWeNeedYourConfirmation": "We just need your confirmation",
+  "depositMomoValidationInstruction": "Compose the code {syntax} to validate {service} deposit",
+  "@depositMomoValidationInstruction": {
+    "description": "Deposit validation instruction",
+    "placeholders": {
+      "syntax": {
+        "type": "String",
+        "example": "*126*"
+      },
+      "service": {
+        "type": "String",
+        "example": "Orange Money"
+      }
+    }
+  },
+  "phoneNumberUpdatedSuccessMessage": "Phone number updated successfully",
+  "@depositMomoEnterServicePhoneNumber": {
+    "description": "Enter service phone number",
+    "placeholders": {
+      "service": {
+        "type": "String",
+        "example": "Orange Money"
+      }
+    }
+  },
+  "depositCancel": "Cancel the deposit",
+  "depositSuccessTitle": "Successful deposit",
+  "@depositSuccessMessage": {
+    "description": "Deposit success message",
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "5 000 FCFA"
+      }
+    }
+  },
+  "depositYouCardCantHaveSomeAmountMonthly": "Your card cannot have more than {monthlyCashInLimit} in the month.",
+  "@depositYouCardCantHaveSomeAmountMonthly": {
+    "description": "Card monthly limit",
+    "placeholders": {
+      "monthlyCashInLimit": {
+        "type": "String",
+        "example": "500 000 FCFA"
+      }
+    }
+  },
+  "depositMonthlyLimitReached": "You cannot make a deposit because you have reached your monthly deposit limit.",
+  "depositVcMonthlyLimitReached": "Your monthly deposit limit is {monthlyLimitAmount}.\nVerify your identification to lift this limit",
+  "@depositVcMonthlyLimitReached": {
+    "description": "Virtual card monthly limit reached",
+    "placeholders": {
+      "monthlyLimitAmount": {
+        "type": "String",
+        "example": "500 000 FCFA"
+      }
+    }
+  },
+  "depositPaymentSubscriptionDepositAmountInsufficient": "This amount will not be enough to cover your subscription. Please top up at least {sufficientAmount}",
+  "@depositPaymentSubscriptionDepositAmountInsufficient": {
+    "description": "Subscription deposit amount insufficient",
+    "placeholders": {
+      "sufficientAmount": {
+        "type": "String",
+        "example": "5 000 FCFA"
+      }
+    }
+  },
+  "depositYourDepositFailed": "Your deposit failed",
+  "transferTypeTitle": "{type, select, local{Local transfer} internation{International transfer} other{Transfert}}",
+  "@transferTypeTitle": {
+    "description": "Transfer type",
+    "placeholders": {
+      "type": {
+        "type": "String",
+        "example": "local"
+      }
+    }
+  },
+  "transfer": "Transfer",
+  "transferSendBy": "Send by",
+  "transferSelectBeneficiary": "Select the beneficiary",
+  "send": "Send",
+  "transferSearchContact": "Search for contact",
+  "transferBeneficiaryNumber": "Beneficiary's phone number",
+  "transferBeneficiaryName": "Beneficiary's name",
+  "beneficiary": "Beneficiary",
+  "transferP2PDescription": "Add a note",
+  "transferIPayWithdrawalFee": "I pay the withdrawal fees",
+  "transferTotalAmountToPay": "Total amount to pay",
+  "transferTotalAmountToPayIsGreaterThanBalance": "The total amount to pay is greater than your balance {balance}",
+  "@transferTotalAmountToPayIsGreaterThanBalance": {
+    "description": "Total amount to pay is greater than balance",
+    "placeholders": {
+      "balance": {
+        "type": "String",
+        "example": "5 000 FCFA"
+      }
+    }
+  },
+  "transferWarningMessageForWrongPhoneNumber": "Attention! In case of error, you will not be able to recover the transferred money.",
+  "@transferSuccessMessage": {
+    "description": "Transfer success message",
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "5 000 FCFA"
+      },
+      "beneficiary": {
+        "type": "String",
+        "example": "John Doe"
+      }
+    }
+  },
+  "vaultTypeClassicLabel": "Classic",
+  "vaultTypeCashbackLabel": "Cashback",
+  "vaultTypeBlockedLabel": "blocked",
+  "vaultTypeChallengeLabel": "Challenge",
+  "@vaultProductTypeName": {
+    "description": "Vault product type name",
+    "placeholders": {
+      "type": {
+        "type": "String",
+        "example": "saving"
+      }
+    }
+  },
+  "vaultCreateVault": "Create a vault",
+  "vaultMyVaults": "My vaults",
+  "vaultChallenges": "Challenges",
+  "vaultCreateNewVaultTile": "Create a new vault",
+  "vaultModifyIcon": "Modify icon",
+  "vaultNameFieldLabel": "Vault name",
+  "vaultDefineBlockingStatusTitle": "Block the vault",
+  "@vaultBlockingWithdrawalWarning": {
+    "description": "Vault blocking date",
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      }
+    }
+  },
+  "@vaultBlockingWithdrawalWarningDate": {
+    "description": "Vault blocking date",
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      }
+    }
+  },
+  "vaultRecurringTransferDescription": "Save twice as much without thinking about it",
+  "@vaultRecurringSelectSpecificFrequency": {
+    "description": "Recurring transfer frequency",
+    "placeholders": {
+      "periodicity": {
+        "type": "String",
+        "example": "monthly"
+      }
+    }
+  },
+  "vaultWeeklyRecurrenceFrequency": "Each {weekDay}",
+  "@vaultWeeklyRecurrenceFrequency": {
+    "description": "Recurrence frequency",
+    "placeholders": {
+      "weekDay": {
+        "type": "String",
+        "example": "monday"
+      }
+    }
+  },
+  "vaultMonthlyRecurrenceFrequency": "Each {day} of the month",
+  "@vaultMonthlyRecurrenceFrequency": {
+    "description": "Recurrence frequency",
+    "placeholders": {
+      "day": {
+        "type": "num",
+        "example": "1"
+      }
+    }
+  },
+  "vaultDailyRecurrenceFrequency": "Every day",
+  "@vaultMainAccountBalance": {
+    "description": "Main account balance",
+    "placeholders": {
+      "balance": {
+        "type": "String",
+        "example": "5 000 FCFA"
+      }
+    }
+  },
+  "vaultCurrentBalanceOf": "Balance Vault {vaultName}",
+  "@vaultCurrentBalanceOf": {
+    "description": "Vault current balance",
+    "placeholders": {
+      "vaultName": {
+        "type": "String",
+        "example": "My vault"
+      }
+    }
+  },
+  "@vaultCreationSuccessTitle": {
+    "description": "Vault creation success",
+    "placeholders": {
+      "vaultName": {
+        "type": "String",
+        "example": "My vault"
+      }
+    }
+  },
+  "vaultDetailsTitle": "Vault details",
+  "vaultChallengeDetailsTitle": "Challenge details",
+  "@vaultCurrentObjective": {
+    "description": "Current objective",
+    "placeholders": {
+      "balance": {
+        "type": "String",
+        "example": "5 000 FCFA"
+      },
+      "target": {
+        "type": "String",
+        "example": "10 000 FCFA"
+      },
+      "percentage": {
+        "type": "num",
+        "example": "50"
+      }
+    }
+  },
+  "vaultSelectAnIconTitle": "Select an icon",
+  "vaultSelectAnIconDescription": "Choose an icon that represents your vault",
+  "vaultDeadlineLabel": "Deadline",
+  "vaultSparedChangeTag": "Spare change",
+  "vaultRecurringTransferTag": "R. transfer",
+  "@vaultProgressionCompletedAt": {
+    "description": "Vault progression",
+    "placeholders": {
+      "progress": {
+        "type": "num",
+        "example": "50"
+      }
+    }
+  },
+  "@vaultMoveSparedChangeToVault": {
+    "description": "Move spare change to vault",
+    "placeholders": {
+      "vaultName": {
+        "type": "String",
+        "example": "My vault"
+      }
+    }
+  },
+  "vaultCreationOnGoing": "Creating your vault...",
+  "@vaultCreatedSuccessTitle": {
+    "description": "Vault creation success",
+    "placeholders": {
+      "vaultName": {
+        "type": "String",
+        "example": "My vault"
+      }
+    }
+  },
+  "vaultAmountValidationExceedBalanceError": "The amount must not exceed your vault's balance",
+  "@vaultDepositSuccessMessage": {
+    "description": "Vault transaction success",
+    "placeholders": {
+      "vaultName": {
+        "type": "String",
+        "example": "My vault"
+      },
+      "amount": {
+        "type": "String",
+        "example": "5 000 FCFA"
+      }
+    }
+  },
+  "@vaultWithdrawSuccessMessage": {
+    "description": "Vault withdrawal success",
+    "placeholders": {
+      "vaultName": {
+        "type": "String",
+        "example": "My vault"
+      },
+      "amount": {
+        "type": "String",
+        "example": "5 000 FCFA"
+      }
+    }
+  },
+  "vaultSettings": "Vault settings",
+  "vaultCustomize": "Customize your vault",
+  "vaultCustomizeDescription": "Change the name and icon of the vault",
+  "vaultDeleteVault": "Delete the vault",
+  "@vaultCurrentObjectiveIndication": {
+    "description": "Vault current objective",
+    "placeholders": {
+      "targetAmount": {
+        "type": "String",
+        "example": "10 000 FCFA"
+      },
+      "deadline": {
+        "type": "DateTime",
+        "format": "yMd"
+      }
+    }
+  },
+  "vaultSparedChangeAcceleratorIndication": "Accelerator: x{factor}",
+  "@vaultSparedChangeAcceleratorIndication": {
+    "description": "Vault spare change accelerator",
+    "placeholders": {
+      "factor": {
+        "type": "num",
+        "example": "2"
+      }
+    }
+  },
+  "vaultGiveUpChallenge": "Quit the challenge",
+  "vaultChallenge": "Challenge",
+  "vaultJoinChallenge": "Join the challenge",
+  "vaultInfoOnChallenge": "Information on the challenge",
+  "@vaultChallengeParticipants": {
+    "description": "Vault challenge participants",
+    "placeholders": {
+      "number": {
+        "type": "num",
+        "example": "5"
+      }
+    }
+  },
+  "vaultChallengeReward": "Reward",
+  "vaultDeleteConfirmationTitle": "Are you sure you want to delete your {vaultName} vault?",
+  "@vaultDeleteConfirmationTitle": {
+    "description": "Vault delete confirmation",
+    "placeholders": {
+      "vaultName": {
+        "type": "String",
+        "example": "My vault"
+      }
+    }
+  },
+  "vaultDeleteConfirmationWarning": "The money in the vault will be returned to your main account.",
+  "vaultDeletedSuccess": "Vault has been deleted",
+  "vaultMinChallengeDeposit": "Minimum deposit",
+  "vaultPercentHasSuccess": "{percent}% has succeeded",
+  "@vaultPercentHasSuccess": {
+    "description": "Vault challenge success",
+    "placeholders": {
+      "percent": {
+        "type": "num",
+        "example": "50"
+      }
+    }
+  },
+  "vaultEnrollChallengeOnGoing": "Enrolling in the challenge...",
+  "vaultTransactionOfVault": "{vaultName}'s transactions",
+  "@vaultTransactionOfVault": {
+    "description": "Vault transaction",
+    "placeholders": {
+      "vaultName": {
+        "type": "String",
+        "example": "My vault"
+      }
+    }
+  },
+  "vaultUniqueNameErrorMessage": "This name is already used by another vault",
+  "blockedUntilChallengeEnd": "Until the end of the challenge",
+  "vaultJoinChallengeSuccessMessage": "Great! You are now participating in the {challengeName} challenge.",
+  "@vaultJoinChallengeSuccessMessage": {
+    "description": "Vault join challenge success",
+    "placeholders": {
+      "challengeName": {
+        "type": "String",
+        "example": "My challenge"
+      }
+    }
+  },
+  "vaultCantCustomizeChallengeVault": "You can't customize a challenge vault",
+  "vaultQuitChallengeWarningMessage": "Abandoning the challenge will delete the vault. If there is still money in the vault, it will be returned to your main account.",
+  "vaultYouAreNotPartOfChallenge": "You are no longer participating in the {challengeName} Challenge.",
+  "@vaultYouAreNotPartOfChallenge": {
+    "description": "Vault not part of challenge",
+    "placeholders": {
+      "challengeName": {
+        "type": "String",
+        "example": "My challenge"
+      }
+    }
+  },
+  "vaultBlockWarningMessage": "Your vault will be locked until {date}. You will not be able to unlock it before.",
+  "@vaultBlockWarningMessage": {
+    "description": "Vault block warning",
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      }
+    }
+  },
+  "vaultDoYouWantToEnableAutomaticDeposit": "Do you want to automatically provision your vault?",
+  "transactions": "Transactions",
+  "transferFailedMessage": "The transfer processing failed. Please try again.",
+  "loanRequestFailedMessage": "Your loan request has failed. Please try again",
+  "loanIncreaseCreditLimit": "Increase your credit limit",
+  "loanRepayBeforeDueDateSpecific": "Repay your loan before {date} to increase your credit limit.",
+  "loanRepayNowToAvoidBeingBlacklisted": "Repay your loan now to avoid being blacklisted in the UEMOA zone.",
+  "loanRepayBeforeDueDateSpecificWithDate": "Repay your loan before {date} to avoid additional penalties.",
+  "loanRepayLateWarning": "{number, plural, =1{Warning - 1 day late} other{Warning - {number} days late}}",
+  "loanAvoidPenaltiesDaysLeft": "{days, plural, =1{Avoid penalties - 1 day left} other{Avoid penalties - {days} days left}}",
+  "transactionsChooseCategory": "Choose a category",
+  "transactionOnGoing": "Transaction in progress...",
+  "@transactionLabelFromIdentifier": {
+    "description": "Transaction label",
+    "placeholders": {
+      "identifier": {
+        "type": "String",
+        "example": "CASHIN_ORANGE"
+      }
+    }
+  },
+  "transactionStatusLabel": "{status, select, validated{Completed} completed{Completed} pending{Pending} failed{Failed} frozen{Being verified} initiated{Initiated} other{-}}",
+  "@transactionStatusLabel": {
+    "description": "Transaction status",
+    "placeholders": {
+      "status": {
+        "type": "String",
+        "example": "pending"
+      }
+    }
+  },
+  "@transactionTransferredOn": {
+    "description": "Transaction date",
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "isCustomDateFormat": "true",
+        "format": "MMM. d, yyyy - h:mm"
+      }
+    }
+  },
+  "@transactionReceivedOn": {
+    "description": "Received date",
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "isCustomDateFormat": "true",
+        "format": "MMM. d, yyyy - h:mm"
+      }
+    }
+  },
+  "transactionReceiptDateTimeTitle": "Date & time",
+  "transactionReceiptStatusTitle": "Status",
+  "transactionReceiptAmountWithoutFeesTitle": "Amount without fees",
+  "transactionReceiptFeesTitle": "Fees",
+  "transactionReceiptExchangeRateTitle": "Exchange rate",
+  "transactionReceiptAmountTitle": "Amount",
+  "transactionReceiptReferenceTitle": "Reference",
+  "transactionReceiptBillReloadCodeTitle": "Reload code",
+  "transactionReceiptBillMessageTitle": "Message",
+  "uncategorizedTransactions": "Uncategorized transactions",
+  "transactionProofOfPaymentRequired": "You must provide a photo of a receipt for this payment to avoid card suspension. This is a regulation of the central bank (BCEAO).",
+  "transactionProvideProof": "Provide proof",
+  "transactionProofRejected": "Proof rejected",
+  "transactionProofRejectedMessage": "The proof you submitted for your payment has been rejected. Please submit another proof.",
+  "transactionRetryVerification": "Retry verification",
+  "transactionPaymentValidated": "Payment validated",
+  "transactionProofValidated": "The proof you submitted for your payment has been validated.",
+  "transactionVerificationInProgress": "Verification in progress",
+  "transactionProofVerificationInProgress": "The proof you submitted for your payment is being verified.",
+  "transactionProofOfPaymentRequiredMessage": "Please provide proof of payment to avoid card suspension.",
+  "transactionsReceiptsTitle": "Period",
+  "transactionsReceiptsCustomPeriod": "Custom Period",
+  "transactionsReceiptsLastMonthPeriod": "Last month",
+  "transactionsReceiptsLastThreeMonthPeriod": "Last 3 monthes",
+  "transactionsReceiptsLastSixMonthPeriod": "Last 6 monthes",
+  "transactionsReceiptsDownloadTitle": "Select format:",
+  "transactionsReceiptsDownloadPDF": "Download as PDF",
+  "transactionsReceiptsDownloadCSV": "Download as CSV",
+  "transactionsReceiptsDownloadLabel": "Download",
+  "transactionP2PNoteTitle": "Note",
+  "sendForVerification": "Send for verification",
+  "importAnotherImage": "Import another image",
+  "transactionVerificationInProgressMessage": "Verification in progress. Your proof of payment is being reviewed to confirm its authenticity and protect you from payment suspension.",
+  "remainingToRepay": "Remaining to repay",
+  "chooseMonth": "Choose a month",
+  "expensesByCategory": "Expenses by category",
+  "amountValidationRequiredError": "Please enter an amount",
+  "amountValidationExceedMaxError": "The amount must not exceed {maxAmount}",
+  "@amountValidationExceedMaxError": {
+    "description": "Amount validation error",
+    "placeholders": {
+      "maxAmount": {
+        "type": "String",
+        "example": "5 000 FCFA"
+      }
+    }
+  },
+  "amountValidationExceedMinError": "The amount must be at least {minAmount}",
+  "@amountValidationExceedMinError": {
+    "description": "Amount validation error",
+    "placeholders": {
+      "minAmount": {
+        "type": "String",
+        "example": "5 000 FCFA"
+      }
+    }
+  },
+  "@amountValidationExceedMaxAndMinError": {
+    "description": "Amount validation error",
+    "placeholders": {
+      "minAmount": {
+        "type": "String",
+        "example": "5 000 FCFA"
+      },
+      "maxAmount": {
+        "type": "String",
+        "example": "10 000 FCFA"
+      }
+    }
+  },
+  "amountValidationMultipleOfError": "The amount must be a multiple of {multiple}",
+  "@amountValidationMultipleOfError": {
+    "description": "Amount validation error",
+    "placeholders": {
+      "multiple": {
+        "type": "String",
+        "example": "5 000 FCFA"
+      }
+    }
+  },
+  "amountValidationExceedBalanceError": "The amount must not exceed your main account balance.\nMain account balance: {balance}",
+  "@amountValidationExceedBalanceError": {
+    "description": "Amount validation error",
+    "placeholders": {
+      "balance": {
+        "type": "String",
+        "example": "5 000 FCFA"
+      }
+    }
+  },
+  "conversion": "Conversion",
+  "iban": "Account number",
+  "ibanAccountNumber": "Account number",
+  "ibanAccountNumberAbbr": "Account number",
+  "ibanGetYourAccountNumber": "Get your account number",
+  "ibanGetYourAccountNumberDescription": "Now receive all your WAEMU bank transfers directly into your Djamo account and free of charge",
+  "ibanGetMyAccountNumber": "Get my account number",
+  "ibanYourActivity": "Your activity",
+  "ibanYourActivityQuestion": "What is your activity?",
+  "ibanAverageIncome": "Average monthly income",
+  "ibanAverageIncomeQuestion": "What is your average monthly income?",
+  "ibanContinueWithoutGiveTheseInfo": "Continue without giving this information",
+  "ibanCreationOnGoing": "Account number creation in progress...",
+  "ibanPendingCreation": "Account number creation in progress",
+  "ibanWeWillNotifyYou": "We will notify you when your Account number is available",
+  "ibanYourAccountNumberCreationIsOnGoing": "Your account number creation is in progress...",
+  "ibanYouWillReceiveNotification": "You will receive a notification when your account number is available",
+  "ibanLocalWireTransfer": "Local transfer",
+  "ibanLocalWireTransferSubtitle": "Receive a bank transfer from WAEMU",
+  "ibanInternationalWireTransfer": "International transfer",
+  "ibanInternationalWireTransferSubtitle": "Receive a bank transfer from international",
+  "ibanBeneficiaryBankName": "Beneficiary bank name",
+  "ibanBeneficiaryName": "Beneficiary name",
+  "ibanBeneficiaryAccountNumber": "Beneficiary account number",
+  "ibanAccountNumberForInternationalTransfer": "Account number for international transfer",
+  "ibanYourAccountNumberIsProvidedBy": "Your account number is provided by",
+  "ibanComplianceWarningMessage": "This account number is not a bank account but only a means to allow you to receive a WAEMU bank transfer into your Djamo account.",
+  "ibanBankProviderName": "{isoCode, select, ci{Bank of Abidjan (BDA)} sn{Bank of Dakar (BDK)} other{}}",
+  "@ibanBankProviderName": {
+    "description": "Bank provider name",
+    "placeholders": {
+      "isoCode": {
+        "type": "String",
+        "example": "ci"
+      }
+    }
+  },
+  "ibanInPdfAccountDetail": "Account details",
+  "ibanInPdfAccountHolder": "Account holder",
+  "ibanInPdfAgencyCode": "Agency code",
+  "ibanInPdfAccountNumber": "Account number",
+  "ibanInPdfRIBKey": "RIB key",
+  "ibanInPdfInternationalIdentifier": "International identifier",
+  "ibanBICSWIFT": "BIC/SWIFT",
+  "ibanUseIBANForWireTransferMessage": "Please use the information below to make a UEMOA bank transfer from your banking application",
+  "loansBorrowUpTo": "Borrow up to {amount}",
+  "loansCreditLimit": "My credit limit",
+  "loanHistory": "My loan history",
+  "howItWorks": "How it works?",
+  "loanBorrowedAmount": "Borrowed amount",
+  "loanDisbursementDate": "Disbursement date",
+  "loanAccelerationFees": "Acceleration fees",
+  "loanDisbursementFees": "Disbursement fees",
+  "monthlyInterestRate": "Monthly interest rate",
+  "loanPenalties": "Penalties",
+  "loanLastRepayment": "Last repayment",
+  "amountReceived": "Amount received",
+  "loanRepaidAmount": "Repaid amount",
+  "transactionsWillAppearHere": "Your transactions will appear here.",
+  "loanEstimatedBorrowingCapacity": "Estimated borrowing capacity",
+  "loanDailyBorrowingCapacity": "Daily borrowing capacity",
+  "loansCriteria": "Criteria",
+  "updateDate": "Updated on {date}",
+  "loansFastReception": "Fast reception",
+  "loansOnlyTwoPercentFees": "Only 2% fees",
+  "loansRepayIn30Days": "Repay in 30 days",
+  "loansUnderstandWhy": "Understand why",
+  "loansNotEligibleCriteria": "You are not yet eligible for a loan",
+  "loansImproveEligibilityCriteria": "Improve your eligibility by meeting these criteria",
+  "loansDepositAtLeast30k": "Have deposited at least 30,000 F in the last 3 months",
+  "loansHavePhysicalCard": "Have a physical card",
+  "loansBorrow": "Borrow",
+  "loansTakeCredit": "Take a loan",
+  "loanDueDate": "Due date",
+  "loanInstantReceptionFees": "Instant reception fees",
+  "loanMonthlyAPR": "Monthly APR",
+  "loanAmountToRepay": "Amount to repay",
+  "repay": "Repay",
+  "loanRepayBeforeDueDate": "Repay your loan before the due date to increase your borrowing capacity to {amount}",
+  "loanRepayBeforeDueDateWarning": "Repay your loan before the due date to avoid penalties and losing access to the credit service",
+  "loanRepayNowToAvoidPenalties": "Repay your loan now to avoid accumulating penalties and being reported to the UEMOA credit bureau",
+  "monthlyLabel": "monthly",
+  "annuallyLabel": "annually",
+  "dailyLabel": "daily",
+  "monthPrefix": "month(s)",
+  "yearPrefix": "year(s)",
+  "daysPrefix": "day(s)",
+  "lastDay": "Dernier jour",
+  "daysLate": "{count, plural, =0{Pas de retard} =1{1 jour de retard} other{{count} jours de retard}}",
+  "loansOnboardingProfessionalSituation": "What is your professional situation?",
+  "loansOnboardingSectorOfActivity": "What is your sector of activity?",
+  "loansOnboardingShooseSectorOfActivity": "Choose a sector of activity",
+  "loansOnboardingAverageMonthlyIncome": "What is your average monthly income?",
+  "loansOnboardingTermsOfEngagement": "Terms of engagement",
+  "loansOnboardingProfessionalStateSalaried": "Salaried",
+  "loansOnboardingProfessionalStateSelfEmployed": "Self-employed",
+  "loansOnboardingProfessionalStateRetired": "Retired",
+  "loansOnboardingProfessionalStateStudent": "Student",
+  "loansOnboardingProfessionalStateUnemployed": "Unemployed",
+  "other": "Other",
+  "loansOnboardingSectorBankingInsurance": "Banking / Insurance",
+  "loansOnboardingSectorITTelecom": "IT / Telecom",
+  "loansOnboardingSectorCommerce": "Commerce",
+  "loansOnboardingSectorScience": "Science",
+  "loansOnboardingSectorEducation": "Education",
+  "loansOnboardingSectorTextile": "Textile",
+  "loansOnboardingSectorLogistics": "Logistics",
+  "loansOnboardingSectorConstruction": "Construction",
+  "loansOnboardingSectorCraftsmanship": "Craftsmanship",
+  "loanDisbursementInProgress": "Your loan is being disbursed. You can repay it once it is disbursed.",
+  "loanFullyRepaidMessageSuccess": "{amount} has been repaid. You have fully repaid your loan.",
+  "loanFullyRepaidMessage": "You have already fully repaid your loan.",
+  "loanCreditReversalMessage": "Your credit will be reversed to your main account within {hours} hours.",
+  "loanAccelerateDisbursement": "Accelerate disbursement",
+  "loanCreditReversalTodayMessage": "Your credit will be reversed to your main account today.",
+  "loanBorrowing": "You borrow",
+  "loanCreditWillBeCreditedIn48h": "Your credit will be credited to your main account within 48 hours.",
+  "loanDisplayMessage": "Your loans will be displayed here.",
+  "loanDisbursed": "Disbursement",
+  "amountWithPenalty": "(including {amount} penalty)",
+  "accountAnalysis": "Account analysis",
+  "loanApproval": "Loan approval",
+  "loanDisbursementMessage": "Loan disbursement",
+  "loanCreditWillBeCreditedSoon": "Your credit will be credited to your main account shortly.",
+  "loansImproveEligibility": "Improve my eligibility",
+  "moreThanMillionCFA": "More than 1,000,000 F CFA",
+  "late": "Late",
+  "pending": "Pending",
+  "loading": "Loading",
+  "refunded": "Refunded",
+  "reload": "Reload",
+  "@referralCode": {
+    "description": "Referral code",
+    "placeholders": {
+      "code": {
+        "type": "String",
+        "example": "DJAMO123"
+      }
+    }
+  },
+  "referralMyCode": "My referral code",
+  "referralInviteFriend": "Invite a friend",
+  "referralAdvantagesTitle": "{amount} 🎉",
+  "@referralAdvantagesTitle": {
+    "description": "Referral advantages",
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "5 000 FCFA"
+      }
+    }
+  },
+  "referralAdvantagesDescription": "To get your bonus, you and your friend must have a physical Djamo card, and he or she must make a payment of at least 5.000 F.",
+  "referralWinUpTo": "Win up to {amount} in three steps!",
+  "@referralWinUpTo": {
+    "description": "Referral win up to",
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "5 000 FCFA"
+      }
+    }
+  },
+  "referralReceiveGainAfterFirstGoldChildPayment": "1️⃣ You have a Djamo physical card.\n2️⃣ Your friend has a Djamo physical card.\n3️⃣ Your friend makes a payment of at least 5.000 F with Djamo",
+  "referralPotentialBonus": "Potential Bonus",
+  "referralActivatedBonus": "Activated Bonus",
+  "referralSeeBonusDetail": "See bonus details",
+  "referralInviteFriendAndWin": "Invite a friend and win",
+  "referralInvitedFriendsCount": "Invited friends ({count})",
+  "@referralInvitedFriendsCount": {
+    "description": "Invited friends count",
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "example": "5"
+      }
+    }
+  },
+  "referralDefaultShareTitle": "Share my Djamo referral code",
+  "referralDefaultShareMessage": "Do you know Djamo? I chose you to be one of the first to receive your Visa card.\nSign up with my code {code}. Click on this link to download the app",
+  "@referralDefaultShareMessage": {
+    "description": "Referral default share message",
+    "placeholders": {
+      "code": {
+        "type": "String",
+        "example": "DJAMO123"
+      }
+    }
+  },
+  "statisticsTotalExpenses": "Total expenses",
+  "beneficiariesContactPermission": "Contact permission",
+  "beneficiariesGiveContactPermission": "We need your permission to access your contacts to provide",
+  "beneficiariesMyContacts": "My contacts",
+  "beneficiariesRecent": "Recent beneficiaries",
+  "beneficiariesNextCashInPhoneNumberModificationMessage": "You will be able to modify this number in {remainingDay, select, 0{0 day} 1{1 day} other{{remainingDay} days}}",
+  "@beneficiariesNextCashInPhoneNumberModificationMessage": {
+    "description": "Beneficiary phone number modification message",
+    "placeholders": {
+      "remainingDay": {
+        "type": "String",
+        "example": "5"
+      }
+    }
+  },
+  "deposit": "Deposit",
+  "depositNoun": "Deposit",
+  "paymentVariation": "The dates and payment amounts may vary depending on the month and the merchant.",
+  "paymentDelayed": "Payment {merchantName} is delayed",
+  "paymentUpcoming": "Payment {merchantName} upcoming",
+  "dueDateComingSoon": "coming in {days} jour",
+  "dueDateToday": "coming today",
+  "dueDateDue": "due on {date}",
+  "@dueDateDue": {
+    "description": "Due date",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "dueDateComing": "coming on {date}",
+  "@dueDateComing": {
+    "description": "Due date",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "yourAccountIsPending": "Your account is pending",
+  "amountWillBeCredited": "{amount} will be credited shortly to your main account.",
+  "cardsNoun": "Card",
+  "cardsSeeDetails": "See informations",
+  "cardsLockCard": "Lock",
+  "cardDestroyedAt": "Card destroyed the {date}",
+  "cardsLockOnGoing": "Locking the card...",
+  "cardsUnlockCard": "Unlock the card",
+  "cardsUnlockOnGoing": "Unlocking the card...",
+  "cardsManageYourSubscriptions": "Manage your subscriptions",
+  "cardsCurrentSubscriptionsCount": "{count, plural, =0{No subscription} =1{1 subscription identified} other{{count} subscriptions identified}}",
+  "@cardsCurrentSubscriptionsCount": {
+    "description": "Current subscriptions count",
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "example": "5"
+      }
+    }
+  },
+  "cardsReplaceCard": "Replace the card",
+  "cardsReplaceCardDescription": "Replace your Djamo card",
+  "cardsSeeMyOrders": "See my orders",
+  "cardsSeeMyOrdersDescription": "Track the status of your orders",
+  "cardsChangeCardPin": "Change the card PIN",
+  "monthly": "Every month",
+  "annually": "Every year",
+  "weekly": "Every week",
+  "quarterly": "Every quarter",
+  "semestral": "Every semester",
+  "chooseFrequency": "Choose the frequency",
+  "selectFrequencyDescription": "Please select the frequency for this subscription",
+  "stepProgress": "Step {currentIndex} of {totalSteps}",
+  "myPayments": "My payments",
+  "selectPaymentForSubscription": "Select a payment that matches a subscription",
+  "subscriptionRemoved": "This subscription has been removed from your list. You will no longer receive upcoming payment reminders.",
+  "subscriptionAdded": "Success. Your subscription has been added successfully.",
+  "active": "Active",
+  "blocked": "Blocked",
+  "lastTransaction": "Last transaction",
+  "subscriptionDate": "Subscription date",
+  "blockFuturePayments": "Block future payments",
+  "cancelSubscription": "Cancel this subscription",
+  "subscriptionAmountAndDate": "{amount}, on {date}",
+  "subscriptionRemoveBlock": "Remove block",
+  "subscriptionRemoveReminder": "Remove reminder",
+  "subscriptionConfirmBlocking": "Confirm blocking",
+  "subscriptionPaymentBlockDescription": "Block future payments for this subscription",
+  "subscriptionMerchantBlockedSuccessfully": "Your future payments to {merchant} are now blocked.",
+  "subscriptionCancelBlockDescription": "Does not cancel your subscription",
+  "subscriptionPaymentDueDescription": "Does not exempt you from payments due to {merchant}",
+  "subscriptionBlockedSince": "Payments for this subscription have been blocked since {date}.",
+  "subscriptionRemoveBlockDescription": "By removing the block:",
+  "subscriptionArrearsImmediateDeduction": "Arrears may be deducted immediately",
+  "subscriptionUnblockedMessage": "Block removed.\nNext payment to {merchant} scheduled around {date}",
+  "upcomingPaymentReminderSpecific": "Upcoming payment of approximately {amount}, scheduled around {date}",
+"subscriptionMerchantBlocked": "Future {merchant} payments ❌",  "depositAtLeastAmountToUnlockFuturePayment": "Make a deposit of at least {amount} to unlock future payments",
+  "thankYou": "Thank you!",
+  "searchBeneficiary": "Search for a beneficiary",
+  "addBeneficiary": "Add a beneficiary",
+  "noBeneficiariesAdded": "Add a beneficiary",
+  "allYourBeneficiariesWillAppearHere": "All your beneficiaries will appear here",
+  "accountHolder": "Account holder",
+  "enterBeneficiaryDetails": "Please enter the name and surname of the beneficiary as registered on their bank account",
+  "modifyBeneficiary": "Modify a beneficiary",
+  "fieldRequiredErrMessage": "Please enter a value",
+  "phoneNumberInvalidErrMessage": "This phone number is invalid",
+  "phoneNumberPrefixNotPresentErrMessage": "Please specify the prefix. Example: +{callingCode}",
+  "ibanCodeInvalid": "The bank code is invalid",
+  "numberIbanCodeCaracterInvalid": "24 characters required",
+  "unknownBanque": "Unknown Bank",
+  "transferByMobileMoney": "By Mobile Money",
+  "transferByCash": "In cash",
+  "transferByBankAccount": "From my bank account",
+  "transferFromAbroad": "From abroad",
+  "bankTransferSuccessMessage": "You will receive the bank transfer in your account within 2 business days.",
+  "salary": "Salary",
+  "update": "Update",
+  "deleteBeneficiary": "Delete beneficiary",
+  "updateBeneficiary": "Update beneficiary",
+  "transferIbanNumber": "IBAN Number",
+  "airtimeSelectOperator": "Select an operator",
+  "airtimeSelectBeneficiary": "Select a beneficiary",
+  "airtimeBuySuccessMessage": "Airtime purchased successfully",
+  "airtimeBuySuccessWarningMessage": "Your airtime will be credited in less than 5 minutes",
+  "airtimeWarningMessageForWrongPhoneNumber": "Attention! In case of error, you will not be able to recover the money.",
+  "supportClient": "Customer support",
+  "supportContactUs": "Contact us",
+  "supportCallClientService": "Call customer service",
+  "supportChatWithUs": "Chat with the support",
+  "supportPhoneCopied": "Phone number copied ✅",
+  "supportDefaultCallCenterAvailabilityMessage": "8:00 AM - 8:00 PM",
+  "supportDefaultChatSupportAvailabilityMessage": "8:00 AM - 8:00 PM - Response in less than 5 minutes",
+  "supportSearchAnswers": "Search for answers...",
+  "supportFrequentlyAskedQuestions": "Frequently Asked Questions",
+  "seeAll": "See All",
+  "selectCategory": "Select a Category",
+  "supportNeedHelp": "Need Help?",
+  "emptySearchArticle": "No results were found for your search. Please try another keyword.",
+  "avoid_fees_by_upgrading": "Avoid fees by becoming premium",
+  "becomePremium": "Become premium",
+  "all_free_plus_benefits": "All the {message} benefits",
+  "available_for_free": "Free",
+  "plusAmountFees": "{amount} fees",
+  "confirmation_subscription_message": "By confirming, you agree to be charged {price}/month after your free premium month",
+  "month": "month",
+  "monthCount": "{count, plural, =0{No month} =1{1 month} other{{count} months}}",
+  "@monthCount": {
+    "description": "Month count",
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "example": "5"
+      }
+    }
+  },
+  "yearAbbrCount": "{count, plural, =0{No year} =1{1 year} other{{count} years}}",
+  "@yearAbbrCount": {
+    "description": "Year count",
+    "placeholders": {
+      "count": {
+        "type": "num",
+        "example": "5"
+      }
+    }
+  },
+  "all_inclusive": "All inclusive",
+  "budgetManageMyBudgets": "Manage my budgets",
+  "budgetDefineAmount": "Define the budget amount",
+  "noTransactionsInCategory": "You have no transactions in this category. Spend with Djamo to better track your finances.",
+  "budgetDefineAmountDescription": "Set the amount you do not want to exceed",
+  "@budgetSetSuccessMessage": {
+    "description": "Budget set success message",
+    "placeholders": {
+      "budgetName": {
+        "type": "String",
+        "example": "My budget"
+      },
+      "amount": {
+        "type": "String",
+        "example": "5 000 FCFA"
+      }
+    }
+  },
+  "budgetModifyMyBudget": "Modify my budget",
+  "budgetDefineMyBudget": "Define my budget",
+  "marketPOS": "POS",
+  "marketSeePOSForDeposit": "See deposit POS",
+  "marketPOSMakeDeposit": "Make a deposit",
+  "marketPOSPickup": "Pickup my card",
+  "marketNoDepositPOS": "No Deposit point nearby",
+  "marketNoPickupPOS": "No card collection point nearby",
+  "marketNoPOSNearbyMessage": "Consider moving to a more frequented area (eg. to a supermarket or restaurant)",
+  "marketEnableLocationServicesTitle": "Enable Location Services",
+  "marketEnableLocationServicesDescription": "Turn on Location Services to find nearby POS locations.",
+  "marketGrantLocationPermissionTitle": "Allow Location Access",
+  "marketGrantLocationPermissionDescription": "We need your location to show nearby POS locations. Please grant permission.",
+  "marketEnableLocationServices": "Enable Location Services",
+  "marketSearchingPOS": "Searching for POS...",
+  "marketCallPOS": "Call POS",
+  "marketLocalizePOS": "Localize POS",
+  "marketCitySelectionTitle": "Select a city",
+  "marketCityAreaSelectionTitle": "Select a city area",
+  "marketSearchCity": "Search for a city",
+  "marketSearchCityLocation": "Search for a city area",
+  "billsBuyBill": "Buy a bill",
+  "purchaseSimulator": "Purchase simulator",
+  "billsAccount": "Account",
+  "billsAccountLabel": "Label",
+  "billsReferenceAccount": "Reference",
+  "billsReferenceAccountLabel": "Account label",
+  "billsReferenceAccountLabelDescription": "Your {labelTypeName} will be associated with this label. You can always modify it later.",
+  "@billsReferenceAccountLabelDescription": {
+    "description": "Bills reference account label description",
+    "placeholders": {
+      "labelTypeName": {
+        "type": "String",
+        "example": "Home"
+      }
+    }
+  },
+  "billsReferenceAccountHomeLabelSuggestions": "Home|Parent|Brother|Sister|Other",
+  "billsReferenceAccountCarLabelSuggestions": "Main car|Second car|Other",
+  "billsReferenceAccountOwnerName": "Owner name",
+  "billsReferenceAccountCurrentBalance": "Current balance: {balance}",
+  "@billsReferenceAccountCurrentBalance": {
+    "description": "Current balance",
+    "placeholders": {
+      "balance": {
+        "type": "String",
+        "example": "5 000 FCFA"
+      }
+    }
+  },
+  "billsReferenceAccountArrears": "Arrears: {arrears}",
+  "@billsReferenceAccountArrears": {
+    "description": "Arrears",
+    "placeholders": {
+      "arrears": {
+        "type": "String",
+        "example": "5 000 FCFA"
+      }
+    }
+  },
+  "@billsPrepaidRechargeCodeOrderedList": {
+    "description": "Prepaid recharge code ordered list",
+    "placeholders": {
+      "order": {
+        "type": "String",
+        "example": "1"
+      }
+    }
+  },
+  "selectAnAccount": "Select an account",
+  "addAccount": "Add an account",
+  "addTheAccount": "Add the account",
+  "validationFieldRequired": "This field is required",
+  "validationSpecialCharacterNotAllowed": "Special characters are not allowed. Please use letters only.",
+  "ratesWithInternationalFees": "Rates with fees on {date}",
+    "@ratesWithInternationalFees": {
+        "description": "Rates with international fees",
+        "placeholders": {
+        "date": {
+            "type": "String",
+            "example": "2021-01-01"
+        }
+        }
+    },
+  "estimation": "Estimation",
+  "currencyConverterFeesExplanation": "👉🏿 This simulator estimates the total cost of your purchase, including Djamo's exchange fees and its partner banks.",
+  "currencyConverterDeviseExplanation": "👉🏿 Choose the merchant's local currency (e.g.: France-EUR, Canada-CAD) to avoid additional fees.",
+  "searchCountryCurrency": "Search for country or currency",
+  "transactionFeesInternational": "International Transaction Fees",
+  "messagingMyNotifications": "My notifications",
+  "messagingNoNotification": "No notification",
+  "messagingNoNotificationDescription": "You will receive notifications here",
+  "cardOwner": "Card owner",
+  "cardNumber": "Card number",
+  "cardNumberCopied": "Card number copied",
+  "expirationDate": "Expiration date",
+  "minimumBalanceToViewCard": "Minimum balance {minimumBalance}",
+  "minimumBalanceToViewCardDescription": "You must have a balance of at least {minimumBalance} to view the card details",
+  "submitKycBeforeShowPAN": "For regulatory reasons, please submit your identification to display the card details.",
+  "noGifsFound": "No GIFs found",
+  "noGifsFoundDescription": "No GIFs found for the search term",
+  "searchGif": "Search GIF",
+  "noTransactionsFound": "No transactions found",
+  "yourTransactionsWillAppearHere": "Your transactions will appear here",
+  "noTransactionsFoundForPeriod": "No transactions found for the selected period",
+  "noTransactionsFoundForCategory": "No transactions found for the selected category",
+  "noTransactionToBeCategorized": "No transactions to be categorized",
+  "noPaymentTransactionsFound": "No payment transactions found",
+  "searchTransaction": "Search for a transaction",
+  "loanAmount": "Loan amount",
+  "receptionMode": "Reception mode",
+  "instantReception": "Instant reception",
+  "normalReception": "Normal reception",
+  "interestEarned": "Interest earned",
+  "howToCancel": "How to cancel",
+  "subscriptionSourceQuestion": "Where does this subscription come from?",
+  "subscriptionAutomaticSourceInfo": "Our system automatically identified this subscription based on your transaction history.",
+  "removeSubscriptionIf": "Remove this subscription from your list if:",
+  "subscriptionIsNotRecurring": "This is not a recurring subscription",
+  "subscriptionAlreadyCancelFromMerchant": "You have already canceled the subscription with {merchantName}",
+  "@subscriptionAlreadyCancelFromMerchant": {
+    "description": "Subscription already canceled from merchant",
+    "placeholders": {
+      "merchantName": {
+        "type": "String",
+        "example": "Netflix"
+      }
+    }
+  },
+  "seeTransactions": "See transactions",
+  "notASubscription": "This is not a subscription",
+  "howToCancelSubscriptionFromMerchant": "How to cancel a subscription from {merchantName}",
+  "@howToCancelSubscriptionFromMerchant": {
+    "description": "How to cancel subscription from merchant",
+    "placeholders": {
+      "merchantName": {
+        "type": "String",
+        "example": "Netflix"
+      }
+    }
+  },
+  "invest": "Invest",
+  "investMyInvestmentsProducts": "My investment products",
+  "investGrowYourWealth": "Grow your wealth",
+  "investHighYieldPotential": "Performance objective",
+  "investDiversifiedPortfolio": "Diversified portfolio with professional management",
+  "investYourFirstSteps": "Your first steps with Djamo Invest",
+  "investAvailableFunds": "Available funds",
+  "investPerformanceObjective": "Performance objective",
+  "investAnnualYieldObjective": "Annual yield objective",
+  "investFundDetail": "Fund detail",
+  "investFundPricing": "Fund pricing",
+  "investFundShareValue": "Value of a share",
+  "investAboutThisFund": "About this fund",
+  "investDepositLabel": "Deposit for the purchase of {shares} shares",
+  "@investDepositLabel": {
+    "description": "Invest deposit label",
+    "placeholders": {
+      "shares": {
+        "type": "num",
+        "example": "5"
+      }
+    }
+  },
+  "investWithdrawalLabel": "Withdrawal of {shares} shares",
+  "@investWithdrawalLabel": {
+    "description": "Invest withdrawal label",
+    "placeholders": {
+      "shares": {
+        "type": "num",
+        "example": "5"
+      }
+    }
+  },
+  "investTransactionServiceLabel": "{type, select, subscription{Buying} selling{Selling} other{}}",
+  "@investTransactionServiceLabel": {
+    "description": "Invest transaction service label",
+    "placeholders": {
+      "type": {
+        "type": "String",
+        "example": "subscription"
+      }
+    }
+  },
+  "investServiceUnavailable": "The {label} service is currently unavailable. We will notify you as soon as the service is available.",
+  "@investServiceUnavailable": {
+    "description": "Invest service unavailable",
+    "placeholders": {
+      "label": {
+        "type": "String",
+        "example": "investment"
+      }
+    }
+  },
+  "investWithdrawalInProgress": "You have a withdrawal order in progress. You will be able to present a new withdrawal once the previous one has been validated.",
+  "investPurchaseConfirmationMessage": "Your purchase of shares will be effective within 24 hours (working day).",
+  "investSellConfirmationMessage": "Your withdrawal will be effective within 24 hours (working day).",
+  "investTransactedShares": "Of {shares} shares",
+  "@investTransactedShares": {
+    "description": "Invest transacted shares",
+    "placeholders": {
+      "shares": {
+        "type": "num",
+        "example": "5"
+      }
+    }
+  },
+  "investKeyInformation": "Key information for the investor",
+  "investDisableAutomaticDepositConfirmationMessage": "Do you want to disable your automatic deposit on {fundName}? This guarantees an investment that grows without effort.",
+  "@investDisableAutomaticDepositConfirmationMessage": {
+    "description": "Invest disable automatic deposit confirmation message",
+    "placeholders": {
+      "fundName": {
+        "type": "String",
+        "example": "Djamo Invest"
+      }
+    }
+  },
+  "readAndApproved": "Read and approved",
+  "objectivesReached": "Objectives reached",
+  "daysRemaining": "Days remaining",
+  "depositSuccess": "Deposit successful",
+  "automaticDeposit": "Automatic deposit",
+  "quickDeposit": "Quick deposit",
+  "depositTitle": "Deposit",
+  "moreOptions": "More options",
+  "newTile": "New",
+  "enableAutomaticDeposit": "Enable automatic deposits",
+  "settingsChangedSuccessfully": "Settings changed successfully",
+  "myQRCode": "My QR",
+  "scan": "Scan",
+  "shareMyQRCode": "Share my QR code",
+  "shareQRCode": "Share QR Code",
+  "invalidDjamoQrCodeMessage": "This QR code does not appear to be a valid Djamo QR code. Please try again.",
+  "isNotCountryClient": "This client is not a {country} Djamo client",
+  "@isNotCountryClient": {
+    "description": "Is not country client",
+    "placeholders": {
+      "country": {
+        "type": "String",
+        "example": "Cote d'Ivoire"
+      }
+    }
+  },
+  "sharingQRCodeFailedMessage": "Failed to share QR code",
+  "useMyQRCodeDescription": "Use my QR Code to top up my account via agent or DJAMO transfer",
+  "scanQRToMakeTransfer": "Scan a QR code to make a Djamo transfer 🚀",
+  "unAllowedScanToYourSelf": "You can't send money to yourself. Please scan another user's QR code.",
+  "entryFees": "Entry fees",
+  "exitFees": "Exit fees",
+  "constraint": "Constraint",
+  "maxDepositByDay": "{count, plural, =0{No deposit limit} =1{1 deposit max/day} other{{count} deposits max/day}}",
+  "@maxDepositByDay": {
+    "description": "Max deposit by day",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "byDay": "By day",
+  "byWeek": "By week",
+  "byMonth": "By month",
+  "byYear": "By year",
+  "supplyDay": "Supply day",
+  "modificationOnGoing": "Modification in progress...",
+  "block": "Block",
+  "untilDate": "Until {date}",
+  "@untilDate": {
+    "description": "Until date",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "2021-12-31"
+      }
+    }
+  },
+  "later": "Later",
+  "newCodeValidated": "New code validated",
+  "firstAndLastName": "First and last name",
+  "allowDjamoSendNotification": "Allow Djamo to send you notifications",
+  "start": "Start",
+  "performance": "Performance",
+  "viewDetails": "View details",
+  "depositFrom": "Deposit from {amount}",
+  "@depositFrom": {
+    "description": "Deposit from",
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "5 000 FCFA"
+      }
+    }
+  },
+  "onTheLast": "On the last {month} months",
+  "@onTheLast": {
+    "description": "On the last",
+    "placeholders": {
+      "month": {
+        "type": "String",
+        "example": "3"
+      }
+    }
+  },
+  "iConfirmReadAndUnderstood": "I confirm that I have read, understood and agree to comply with the {doc}",
+  "@iConfirmReadAndUnderstood": {
+    "description": "I confirm read and understood",
+    "placeholders": {
+      "doc": {
+        "type": "String",
+        "example": "terms and conditions"
+      }
+    }
+  },
+  "cashback": "Cashback",
+  "pendingTransaction": "{pendingCount, plural, =0{No pending transaction} =1{Pending transaction} other{Pending transactions}}",
+  "@pendingTransaction": {
+    "description": "Pending transaction",
+    "placeholders": {
+      "pendingCount": {
+        "type": "num",
+        "example": "5"
+      }
+    }
+  },
+  "transferInitialization": "Transfer initialization",
+  "debitFromYourDjamoAccount": "Debit from your Djamo account",
+  "debitFromYourAccount": "Debit from your {accountName} account",
+  "@debitFromYourAccount": {
+    "description": "Debit from your account",
+    "placeholders": {
+      "accountName": {
+        "type": "String",
+        "example": "Main account"
+      }
+    }
+  },
+  "transferProcessingByOperator": "Transfer processing by the operator",
+  "funds": "Funds",
+  "initializingYourTransaction": "Initializing your transaction",
+  "depositConfirmationInProgress": "Confirmation of your deposit in progress",
+  "momoTransferConfirmationMessage": "You will receive the transfer on your mobile money account in a few minutes.",
+  "deleteAutomaticDeposit": "Delete automatic deposit",
+  "recurrence": "Recurrence",
+  "leaveActivated": "Leave activated",
+  "pauseIt": "Pause",
+  "monthlyCeilingAt": "Monthly ceiling at {amount}",
+  "@monthlyCeilingAt": {
+    "description": "Monthly card limit",
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "5 000 FCFA"
+      }
+    }
+  },
+  "onlineAndInStorePayment": "*Online and in-store* payment",
+  "withdrawalsAtTellers": "*Withdrawals at tellers*",
+  "freeMobileMoneyTransfers": "*Free mobile money transfers*",
+  "freeRibForSalary": "*Free RIB for salary*",
+  "accessToDjamoInvest": "*Access to Djamo Invest*",
+  "onlinePayment": "*Online* payment",
+  "physical": "Physical",
+  "virtual": "Virtual",
+  "selectCard": "Select a card",
+  "newBalance": "New Balance",
+  "operator": "Operator",
+  "rate": "Rate",
+  "rateIncludingInternationalFees": "Rate (including international fees)",
+  "djamoCardMasked": "Djamo Card XXXX-{lastFourDigits}",
+  "paidWith": "Paid with",
+  "refund": "Refund",
+  "loanDisbursement": "Credit disbursement",
+  "payment": "Payment",
+  "transactionReceipt": "Transaction receipt",
+  "messagingToken": "Messaging Token",
+  "partnershipWith": "Partnership with",
+  "issueWithAccountSubscription": "Issue with your account subscription, please contact customer service for more information.",
+  "redoMyIdentification": "Redo my identification",
+  "issueWithYourIdentification": "Issue with your identification",
+  "offlineMessage": "You are offline. Your data may not be up to date",
+  "yourCardWillBeDeliveredSoon": "Your card will be delivered soon",
+  "expectedDeliveryDate": "The expected delivery date is {date}. Change the delivery location here.",
+  "collectYourCardNow": "Collect your card now",
+  "collectYourCardFromAgent": "Collect your card from a Djamo agent. Find one near you here.",
+  "deliveryFailed": "We couldn’t deliver your card 😥",
+  "deliveryRescheduled": "The delivery has been rescheduled. Customer service will contact you soon.",
+  "orderBeingProcessed": "Order being processed",
+  "pleaseWaitSupportContact": "Please wait. Customer service will contact you soon.",
+  "cardDestroyedNSFTitle": "Your card has been destroyed",
+  "cardDestroyedNSFPhysicalContent": "The reason: 20 failed paiments strike. Order a new card here.",
+  "cardDestroyedNSFVirtualContent": "The reason: 20 failed paiments strike. Do a deposit here.",
+  "yourCardIsReady": "Your card is ready 🎉",
+  "collectFromDjamoAgent": "Collect your card from a Djamo agent. Find one near you here.",
+  "preferDelivery": "Would you prefer delivery?",
+  "scheduleFreeDelivery": "Schedule your free card delivery here.",
+  "increaseYourLimit": "Increase your limit to 2 million F",
+  "verifyIdentityToIncreaseLimit": "Verify your identity to increase your limit now.",
+  "orderPhysicalCard": "Order your physical card",
+  "physicalCardBenefits": "Make transactions up to 10 million F per month with your physical card.",
+  "verifyYourIdentity": "Verify your identity",
+  "completeIdentificationToFinishOrder": "Complete your identification here to finish your order.",
+  "identityIssue": "Problème avec votre identification",
+  "invalidIdentityData": "Some of your data is invalid. Please redo your identification.",
+  "needHelpWithIdentity": "Need help with your identification?",
+  "getAssistanceAtRelayPoint": "You can visit a relay point for assistance. Check the list here.",
+  "paymentInitialization": "Payment initialization",
+  "codeActivation": "Code activation",
+  "takePhotoWithId": "Take a photo of yourself with your ID under the mention. Once aligned, tap to capture.",
+  "sendManualRequest": "Send a manual request",
+  "requestManualPasscodeResetConfirmation": "We have received your request. You will receive an SMS when your request has been successfully processed.",
+  "manualRequest": "Manual request",
+  "passcodeIncorrect": "Passcode incorrect",
+  "services": "Bills",
+  "logout": "Log out",
+  "noContactFoundForSearch": "No contact found for the search term",
+  "confirmLogout": "Do you want to log out?",
+  "logoutMe": "Log me out",
+  "subscriptionActivationTime": "Your {operator} subscription will be active within {delayInMinutes} minutes.",
+  "@subscriptionActivationTime": {
+    "description": "Subscription activation time",
+    "placeholders": {
+      "operator": {
+        "type": "String",
+        "example": "Orange"
+      },
+      "delayInMinutes": {
+        "type": "num",
+        "example": "5"
+      }
+    }
+  },
+  "reloadCode": "Your reload code is {code}",
+  "@reloadCode": {
+    "description": "Reload code",
+    "placeholders": {
+      "code": {
+        "type": "String",
+        "example": "Orange"
+      }
+    }
+  },
+  "copyCode": "Copy the code",
+  "setNewSecurityCode": "Set a new security code",
+  "noResultForSearch": "No result for the search term",
+  "stayInAppWhileProcessing": "Please wait a moment and do not leave the application.",
+  "yourIdDocument": "Your ID document",
+  "yourSelfie": "Your selfie",
+  "verificationSuccessful": "Verification successful",
+  "sendFailed": "Sending failed",
+  "reconnecting": "I am reconnecting",
+  "mandatoryUpdate": "Mandatory update",
+  "updateAvailable": "Update available",
+  "updateNow": "Update now",
+  "referralAccount": "Referral account",
+  "enterCurrentSecurityCode": "Please enter your current security code",
+  "verifyingCurrentSecurityCode": "Verifying your current security code...",
+  "myCode": "My code",
+  "planActivationSuccess": "You are now on the {productName} plan",
+  "@planActivationSuccess": {
+    "description": "Plan activation success",
+    "placeholders": {
+      "productName": {
+        "type": "String",
+        "example": "Premium"
+      }
+    }
+  },
+  "updateAvailableBanner": "An update is available 🎉",
+  "updatePrompt": "Click here to update your version of Djamo",
+  "upcomingPaymentReminder": "It looks like you have an upcoming payment to {merchantName} on {nextDueAt}, for approximately {amount}.",
+  "@upcomingPaymentReminder": {
+    "description": "Upcoming payment reminder",
+    "placeholders": {
+      "merchantName": {
+        "type": "String",
+        "example": "Netflix"
+      },
+      "nextDueAt": {
+        "type": "String",
+        "example": "2021-12-31"
+      },
+      "amount": {
+        "type": "String",
+        "example": "5 000 FCFA"
+      }
+    }
+  },
+  "multipleUpcomingPaymentsReminder": "It looks like you have multiple upcoming payments starting from {nextDueAt}, for approximately {totalAmount}.",
+  "@multipleUpcomingPaymentsReminder": {
+    "description": "Multiple upcoming payments reminder",
+    "placeholders": {
+      "nextDueAt": {
+        "type": "String",
+        "example": "2021-12-31"
+      },
+      "totalAmount": {
+        "type": "String",
+        "example": "5 000 FCFA"
+      }
+    }
+  },
+  "payments": "Payments",
+  "all": "All",
+  "expenses": "Expenses",
+  "deposits": "Deposits",
+  "searchTitle": "Search",
+  "inviteCodeCopied": "Invitation code copied successfully",
+  "loadMore": "Load more",
+  "confirmDeposit": "Confirm deposit",
+  "vaultNotFound": "It looks like this vault doesn’t exist.",
+  "yourVBVConfirmationCode": "Your confirmation code is",
+  "confirmationVBVCodeWarning": "Do not share this code with anyone over the phone. Do not dial any USSD syntax. Enter this code on the merchant's website to validate the transaction.",
+  "lockEmojiCode": "🔐 Code",
+  "useThisCodeToLogin": "Use this code to log into your Djamo business account",
+  "cardDetailLoadingError": "Error on your card informations loading",
+  "amountInCurrency": "Amount in {currency}",
+  "@amountInCurrency": {
+    "description": "Amount in currency",
+    "placeholders": {
+      "currency": {
+        "type": "String",
+        "example": "USD"
+      }
+    }
+  },
+  "at": "at",
+  "operationInfo": "Operation information",
+  "sharePurchase": "Share purchase",
+  "shareRedemption": "Share redemption",
+  "client": "Client",
+  "numberOfShares": "Number of shares",
+  "netAssetValue": "Net asset value",
+  "transactionFeesIncludingTax": "Transaction fees including tax {feesPercentage}%",
+  "receipt": "Receipt",
+  "checkInternetConnection": "Please check your internet connection and try again.",
+  "purchaseAndWithdrawalUnavailable": "Purchase and withdrawal services are currently unavailable. We will notify you as soon as the service becomes available.",
+  "selectVaultType": "Choose a vault type",
+  "during": "During",
+  "interestRate": "{percentage}% interest",
+  "@interestRate": {
+    "description": "Interest rate",
+    "placeholders": {
+      "percentage": {
+        "type": "num",
+        "example": "5"
+      }
+    }
+  },
+  "vaultNotLocked": "Vault not locked",
+  "lockedVaults": "Locked vaults",
+  "confirmVaultLock": "Are you sure you want to lock your vault?",
+  "earlyUnlockPenalty": "Unlocking before the due date will incur penalty fees.",
+  "earnUpTo6Percent": "Generate up to 6% interest with vaults",
+  "cardIndependentFromAccount": "Your card becomes independent from your account",
+  "accountBalanceUnlimited": "Your account balance becomes unlimited",
+  "switchToMicrofinance": "Switch to Microfinance",
+  "migrateToDjamoMicrofinance": "Migrate to Djamo Microfinance 🚀",
+  "microfinanceExperience": "An unlimited experience, extended services, and simplified management. Click here.",
+  "signToAcceptTerms": "Sign to accept the terms",
+  "signHere": "Sign here ✍🏾",
+  "migrationSuccessful": "Migration successful.",
+  "restart": "Restart",
+  "signatureSaveError": "An error occurred while saving the signature.",
+  "accounts": "Accounts",
+  "edit": "Edit",
+  "unlockVault": "Unlock the vault",
+  "vaultDeletionInfo": "The vault will be deleted, and the money in the vault will be transferred to the main account.",
+  "vaultUnlockPenalty": "You will lose {percentage}% of your interest ({amount}) for unlocking the vault. Are you sure you want to continue?",
+    "@vaultUnlockPenalty": {
+        "description": "Vault unlock penalty",
+        "placeholders": {
+        "percentage": {
+            "type": "num",
+            "example": "5"
+        },
+        "amount": {
+            "type": "String",
+            "example": "5 000 FCFA"
+        }
+        }
+    },
+  "confirmVaultUnlock": "Unlock the vault anyway",
+  "securityUpdateRequired": "For security reasons, please update your application 🚀",
+  "verifyPaymentInformations": "Verify payment informations",
+  "merchant": "Merchant",
+  "confirmPayment": "Confirm payment",
+  "cancelPayment": "Cancel payment",
+  "confirmAccountDeletion": "Do you want to delete this account?",
+  "getDiscountOnFxForPaymentAboveCegetDiscountOnFxForPaymentAboveCertainAmountrtainAmount": "Get a discount of *{discount}* on the exchange rate for payments above {amount}",
+    "@getDiscountOnFxForPaymentAboveCertainAmount": {
+        "description": "Get discount on fx for payment above certain amount",
+        "placeholders": {
+        "discount": {
+            "type": "String",
+            "example": "5%"
+        },
+        "amount": {
+            "type": "String",
+            "example": "5 000 FCFA"
+        }
+        }
+    },
+  "chooseLocalCurrencyToAvoidFees": "Choose the local currency of the merchant or ATM to avoid additional fees",
+  "currencyConverterWarning": "The simulator remains an estimate. The final amount may vary.",
+  "fxRateComparator": "Comparator",
+  "markAllAsRead": "Mark all as read",
+  "reloginRequired": "Authentication failed. Please log in again.",
+  "mySingular": "My {name}",
+    "@mySingular": {
+        "description": "My singular",
+        "placeholders": {
+        "name": {
+            "type": "String",
+            "example": "account"
+        }
+        }
+    },
+  "paymentDueDate": "Payment due date:",
+  "billingPeriod": "Billing period:",
+  "invoice": "Invoice",
+  "invoiceNumber": "Invoice number",
+  "vaultsWillAppearHere": "Your vaults will appear here",
+  "saveFeesWithAgent": "Save {fees} by making your deposit with a Djamo agent. Click here.",
+    "@saveFeesWithAgent": {
+        "description": "Save fees with agent",
+        "placeholders": {
+        "fees": {
+            "type": "String",
+            "example": "5 000 FCFA"
+        }
+        }
+    },
+  "signatureStepOne": "Please sign to confirm your approval (1/2):",
+  "signatureStepTwo": "Please sign again (2/2):",
+  "deleteAccount": "Delete account"
+}

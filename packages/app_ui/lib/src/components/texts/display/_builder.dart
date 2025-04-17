@@ -27,30 +27,29 @@ class _Builder extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    //TODO: Prendre en compte les RichText dans le builder
-    // if (useRichText) {
-    //   final split = splitData(data);
-    //   return RichText(
-    //     maxLines: maxLines,
-    //     overflow: overflow ?? TextOverflow.clip,
-    //     text: TextSpan(
-    //       children: split.map((e) {
-    //         return TextSpan(
-    //           text: switch (e.isBulletedList) {
-    //             true => '\n• ${unwrap(e)}',
-    //             _ => unwrap(e),
-    //           },
-    //           style: updatedStyle(context, boldFontWeight, linkFontWeight, e),
-    //           recognizer: !e.isLinkStyle ? null : TapGestureRecognizer()
-    //             ?..onTap = () {
-    //               onUrlPressed?.call(unwrap(e));
-    //             },
-    //         );
-    //       }).toList(),
-    //       style: mainStyle,
-    //     ),
-    //   );
-    // }
+    if (useRichText) {
+      final split = splitData(data);
+      return RichText(
+        maxLines: maxLines,
+        overflow: overflow ?? TextOverflow.clip,
+        text: TextSpan(
+          children: split.map((e) {
+            return TextSpan(
+              text: switch (e.isBulletedList) {
+                true => '\n• ${unwrap(e)}',
+                _ => unwrap(e),
+              },
+              style: updatedStyle(context, boldFontWeight, linkFontWeight, e),
+              recognizer: !e.isLinkStyle ? null : TapGestureRecognizer()
+                ?..onTap = () {
+                  onUrlPressed?.call(unwrap(e));
+                },
+            );
+          }).toList(),
+          style: mainStyle,
+        ),
+      );
+    }
     return Text(
       data,
       textAlign: textAlign,
@@ -91,22 +90,21 @@ class _Builder extends StatelessWidget {
     });
   }
 
-  //TODO: Le update Style est utilisé dans le RichText
-  // TextStyle? updatedStyle(
-  //   BuildContext context,
-  //   FontWeight? boldFontWeight,
-  //   FontWeight? linkFontWeight,
-  //   String e,
-  // ) {
-  //   final fontSize = mainStyle?.fontSize;
-  //   return mainStyle?.copyWith(
-  //     fontWeight: e.isBoldStyle
-  //         ? (boldFontWeight ?? FontWeight.w700)
-  //         : e.isLinkStyle
-  //             ? (linkFontWeight ?? FontWeight.w600)
-  //             : null,
-  //     fontSize: e.isLinkStyle && fontSize != null ? fontSize + .5 : fontSize,
-  //     color: e.isLinkStyle ? context.colorScheme.primary : null,
-  //   );
-  // }
+  TextStyle? updatedStyle(
+    BuildContext context,
+    FontWeight? boldFontWeight,
+    FontWeight? linkFontWeight,
+    String e,
+  ) {
+    final fontSize = mainStyle?.fontSize;
+    return mainStyle?.copyWith(
+      fontWeight: e.isBoldStyle
+          ? (boldFontWeight ?? FontWeight.w700)
+          : e.isLinkStyle
+              ? (linkFontWeight ?? FontWeight.w600)
+              : null,
+      fontSize: e.isLinkStyle && fontSize != null ? fontSize + .5 : fontSize,
+      color: e.isLinkStyle ? context.colorScheme.primary : null,
+    );
+  }
 }

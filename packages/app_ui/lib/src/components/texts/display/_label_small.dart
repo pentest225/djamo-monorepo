@@ -18,7 +18,7 @@ class _LabelSmall extends AppTextComponent {
   Widget build(BuildContext context) {
     return _Builder(
       data: data,
-      mainStyle: Theme.of(context).textTheme.labelSmall,//context.theme.textTheme.labelSmall,
+      mainStyle: context.theme.textTheme.labelSmall,
       textAlign: textAlign,
       maxLines: maxLines,
       overflow: overflow,

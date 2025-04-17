@@ -1,5 +1,4 @@
-library app_ui;
+/// The Truth
+library;
 
-export 'src/widgets/common_button.dart';
-export 'src/tokens/tokens.dart';
-export 'src/components/texts/texts.dart';
+export 'src/src.dart';
