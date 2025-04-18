@@ -1,6 +1,7 @@
 name: djamo_monorepo
 
 packages:
+  - applications/**
   - apps/**
   - packages/**
 

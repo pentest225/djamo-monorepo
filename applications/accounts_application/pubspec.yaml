@@ -1,5 +1,5 @@
-name: client
-description: "First application in the Flutter Monorepo"
+name: accounts_application
+description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -35,20 +35,10 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
-  flutter_screenutil: ^5.9.3
-  auto_route: 9.2.2
-  equatable: ^2.0.7
-  app_ui:
-    path: ../../packages/app_ui
-  domain:
-    path: ../../packages/domain
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  build_runner: ^2.4.11
-  auto_route_generator: 9.0.0
-
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is

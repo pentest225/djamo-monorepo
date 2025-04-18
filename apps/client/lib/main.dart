@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:app_ui/app_ui.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
-import 'app/pages/app_splash_page.dart';
+import 'config/routes/app_route_observer.dart';
 import 'config/routes/app_router_module.dart';
 
 void main() {
@@ -30,11 +29,16 @@ class ClientApp extends StatelessWidget {
             title: 'Djamo monorepo',
             debugShowCheckedModeBanner: false,
             theme:AppTheme.clientLight(context).current,
-            routerConfig: _appRouter.config(),
+            routerConfig: _appRouter.config(
+              navigatorObservers: ()=>[
+                AppAutoRouteObserver()
+              ]
+            ),
             localizationsDelegates: const [
               ...AppLocalizations.localizationsDelegates,
             ],
             supportedLocales: AppLocalizations.supportedLocales,
+
           )
         );
       }
