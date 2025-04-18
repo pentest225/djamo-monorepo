@@ -43,8 +43,8 @@ dependencies:
   app_ui:
     path: ../../packages/app_ui
   auto_route: 9.2.2
-#  core:
-#    path: ../../packages/core
+  core:
+    path: ../../packages/core
 #  crashlytics_tower:
 #    path: ../../packages/crashlytics_tower
   dio: ^5.7.0
@@ -57,8 +57,8 @@ dependencies:
   petit_extension:
     path: ../../packages/petit_extension
   retrofit: ^4.4.1
-#  usecases_core:
-#    path: ../../packages/usecases_core
+  usecases_core:
+    path: ../../packages/usecases_core
 
 dev_dependencies:
   flutter_test:
