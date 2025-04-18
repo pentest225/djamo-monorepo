@@ -35,12 +35,41 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+
+#  analytics_core:
+#    path: ../../packages/analytics_core
+#  analytics_hub:
+#    path: ../../packages/analytics_hub
+  app_ui:
+    path: ../../packages/app_ui
+  auto_route: 9.2.2
+#  core:
+#    path: ../../packages/core
+#  crashlytics_tower:
+#    path: ../../packages/crashlytics_tower
+  dio: ^5.7.0
   domain:
     path: ../../packages/domain
+
+  injectable: ^2.5.0
+  page_scope:
+    path: ../../packages/page_scope
+  petit_extension:
+    path: ../../packages/petit_extension
+  retrofit: ^4.4.1
+#  usecases_core:
+#    path: ../../packages/usecases_core
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  auto_mappr: ^2.4.0
+  auto_route_generator: 9.0.0
+  build_runner: 2.4.12
+  injectable_generator: 2.6.2
+  mocktail: 1.0.4
+  retrofit_generator: ^9.1.2
+  very_good_analysis: 6.0.0
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
